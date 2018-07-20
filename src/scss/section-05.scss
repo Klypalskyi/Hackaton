@@ -87,10 +87,12 @@
     margin-right: rem(16);
     font-size: rem(10)
   }
+
   &__item:first-child {
     font-size: rem(10);
     text-decoration: line-through;
   }
+
   &__item:last-child {
     margin-right: 0;
   }
@@ -112,7 +114,7 @@
 }
 
 .wheel__item {
-  @include sub-title;
+  @include title;
   font-size: 0.25rem;
 }
 
@@ -196,6 +198,7 @@
     left: 0;
 
   }
+
   .button-right::after {
     content: "\203a";
     color: #ffffff;
@@ -205,6 +208,7 @@
     bottom: rem(0);
     right: 0;
   }
+
   .button-left, .button-right {
     display: inline-block;
     height: rem(27);
@@ -280,6 +284,7 @@
     left: 0;
 
   }
+
   .button-right::after {
     content: "\203a";
     color: #ffffff;
@@ -289,6 +294,7 @@
     bottom: rem(0);
     right: 0;
   }
+
   .button-left, .button-right {
     display: inline-block;
     height: rem(27);
@@ -364,6 +370,7 @@
     left: 0;
 
   }
+
   .button-right::after {
     content: "\203a";
     color: #ffffff;
@@ -373,6 +380,7 @@
     bottom: rem(0);
     right: 0;
   }
+
   .button-left, .button-right {
     display: inline-block;
     height: rem(27);
@@ -442,6 +450,7 @@
   .section-05__text {
     @include text;
   }
+
   .section-05__review-part {
     width: 70%;
     margin-top: rem(60);
@@ -449,36 +458,45 @@
     flex-direction: column;
     justify-content: space-between;
   }
+
   .review-part__review {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+
   .review-information {
     margin-right: rem(32);
     padding-top: rem(10);
   }
+
   .review, .name-surname {
     @include text;
   }
+
   .wheel {
     display: flex;
     list-style-type: none;
     margin-right: rem(136);
+
     &__item {
       margin-right: rem(16);
     }
+
     &__item:first-child {
       font-size: rem(20);
       text-decoration: line-through;
     }
+
     &__item:last-child {
       margin-right: 0;
     }
   }
+
   .section-05--bottom-element {
     display: flex;
   }
+
   .button-left::before {
     content: "\2039";
     color: #ffffff;
@@ -487,8 +505,8 @@
     padding: rem(10);
     bottom: rem(28);
     left: 0;
-
   }
+
   .button-right::after {
     content: "\203a";
     color: #ffffff;
@@ -498,6 +516,7 @@
     bottom: rem(28);
     right: 0;
   }
+
   .button-left, .button-right {
     display: inline-block;
     height: rem(27);
@@ -510,6 +529,7 @@
     width: rem(105);
     height: rem(105);
   }
+
   .section-05__review-part{
     width: auto;
     margin-left: 5rem;
@@ -524,6 +544,3 @@
   }
 
 }
-
-
-

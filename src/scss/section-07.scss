@@ -9,15 +9,15 @@
   height: rem(145);
 }
 
-.section-07-web-developer-part__text{
-  font-family: Acrom-regular,sans-serif;
-  font-size: .65625rem;
+.section-07-web-developer-part__text {
+  font-family: Acrom-regular, sans-serif;
+  font-size: 0.65625rem;
   padding-top: rem(15);
   color: #3f4144;
 }
 
-.section-07-web-developer-part__title{
-  font-family: Acrom-extrabold,sans-serif;
+.section-07-web-developer-part__title {
+  font-family: Acrom-extrabold, sans-serif;
   padding-top: rem(22);
 }
 
@@ -26,19 +26,19 @@
   height: rem(130);
 }
 
-.section-07-content-title, .section-07__title-web-part-title {
-  @include sub-title;
+.section-07-content-title,
+.section-07__title-web-part-title {
+  @include title;
 }
 
-.section-07-web-part-laptop-container, .section-07-web-designer-photo-container {
+.section-07-web-part-laptop-container,
+.section-07-web-designer-photo-container {
   display: flex;
   justify-content: center;
 }
 
 .section-07-container-content {
-
   position: relative;
-
 }
 
 .section-07-content-title {
@@ -65,13 +65,17 @@
   top: 13%;
 }
 
-.section-07-vaserman__title1, .section-07-vaserman__title2, .section-07__title-web-part-title1, .section-07__title-web-part-title2, .section-07__title-web-part-title3 {
-  @include sub-title;
+.section-07-vaserman__title1,
+.section-07-vaserman__title2,
+.section-07__title-web-part-title1,
+.section-07__title-web-part-title2,
+.section-07__title-web-part-title3 {
+  @include title;
   color: #ffffff;
   @include black-ground;
 }
 
-.section-07-vaserman-container3-title{
+.section-07-vaserman-container3-title {
   padding-top: 1rem;
 }
 
@@ -110,20 +114,23 @@
   font-size: 0.56rem;
 }
 
-.section-07-vaserman__text-bold, .section-07-web-part__text-bold {
+.section-07-vaserman__text-bold,
+.section-07-web-part__text-bold {
   @include text;
   font-weight: bold;
   margin-left: 2rem;
   margin-right: 1rem;
 }
 
-.section-07-vaserman__text-normal, .section-07-web-part__text-normal {
+.section-07-vaserman__text-normal,
+.section-07-web-part__text-normal {
   @include text;
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
-.section-07-web-designer-part__title1, .section-07-web-designer-part__title2 {
+.section-07-web-designer-part__title1,
+.section-07-web-designer-part__title2 {
   @include title;
   font-size: rem(15);
   margin: rem(1);
@@ -150,10 +157,7 @@
     position: absolute;
     right: 11.5rem;
     bottom: 8.5rem;
-
   }
-
-
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -162,10 +166,7 @@
     width: rem(448);
     margin: auto;
   }
-
 }
-
-
 
 @media (min-width: 768px) and (max-width: 959px) {
   .section-07 {
@@ -180,7 +181,7 @@
 
   .section-07-content-title {
     font-size: 2.25rem;
-    width: 15rem !important;
+    min-width: 15rem;
     margin: 0;
     padding-left: 0;
   }
@@ -189,7 +190,7 @@
     text-align: initial;
     width: rem(160);
     font-size: 9px;
-    font-family: 'Acrom-medium', sans-serif;
+    font-family: "Acrom-medium", sans-serif;
     padding-top: 2rem;
   }
 
@@ -214,17 +215,18 @@
     order: 2;
     display: flex;
 
-    .section-07-vaserman__text-normal, .section-07-web-part__text-normal {
+    .section-07-vaserman__text-normal,
+    .section-07-web-part__text-normal {
       font-size: 8px;
       padding-top: 1rem;
       width: rem(175);
     }
 
-    .section-07-vaserman__text-bold, .section-07-web-part__text-bold {
+    .section-07-vaserman__text-bold,
+    .section-07-web-part__text-bold {
       font-size: 9px;
       width: rem(175);
     }
-
   }
 
   .section-07-vaserman-container2 {
@@ -286,17 +288,18 @@
       margin: 0;
     }
 
-    .section-07-vaserman__text-normal, .section-07-web-part__text-normal {
+    .section-07-vaserman__text-normal,
+    .section-07-web-part__text-normal {
       font-size: 8px;
       padding-top: 1rem;
       width: rem(175);
     }
 
-    .section-07-vaserman__text-bold, .section-07-web-part__text-bold {
+    .section-07-vaserman__text-bold,
+    .section-07-web-part__text-bold {
       font-size: 9px;
       width: rem(175);
     }
-
   }
 
   .section-07-web-part-container {
@@ -309,12 +312,15 @@
       margin-right: 0px;
       order: 1;
     }
+
     .section-07-web-designer-part {
       order: 2;
     }
+
     .section-07-web-designer-photo-container {
       order: 4;
     }
+
     .section-07-web-developer-part {
       width: 400px;
       order: 3;
@@ -342,7 +348,8 @@
       bottom: 1.7rem;
     }
 
-    .section-07-web-designer-part__title1, .section-07-web-designer-part__title2 {
+    .section-07-web-designer-part__title1,
+    .section-07-web-designer-part__title2 {
       font-size: 36px;
       width: 375px;
     }
@@ -362,7 +369,7 @@
 
   .section-07-content-title {
     font-size: 2.25rem;
-    width: 15rem !important;
+    min-width: 15rem;
     margin: 0;
     padding-left: 0;
   }
@@ -371,7 +378,7 @@
     text-align: initial;
     width: rem(160);
     font-size: 9px;
-    font-family: 'Acrom-medium', sans-serif;
+    font-family: "Acrom-medium", sans-serif;
     padding-top: 2rem;
   }
 
@@ -396,17 +403,18 @@
     order: 2;
     display: flex;
 
-    .section-07-vaserman__text-normal, .section-07-web-part__text-normal {
+    .section-07-vaserman__text-normal,
+    .section-07-web-part__text-normal {
       font-size: 8px;
       padding-top: 1rem;
       width: rem(175);
     }
 
-    .section-07-vaserman__text-bold, .section-07-web-part__text-bold {
+    .section-07-vaserman__text-bold,
+    .section-07-web-part__text-bold {
       font-size: 9px;
       width: rem(175);
     }
-
   }
 
   .section-07-vaserman-container2 {
@@ -468,17 +476,18 @@
       margin: 0;
     }
 
-    .section-07-vaserman__text-normal, .section-07-web-part__text-normal {
+    .section-07-vaserman__text-normal,
+    .section-07-web-part__text-normal {
       font-size: 8px;
       padding-top: 1rem;
       width: rem(175);
     }
 
-    .section-07-vaserman__text-bold, .section-07-web-part__text-bold {
+    .section-07-vaserman__text-bold,
+    .section-07-web-part__text-bold {
       font-size: 9px;
       width: rem(175);
     }
-
   }
 
   .section-07-web-part-container {
@@ -491,12 +500,15 @@
       margin-right: 0px;
       order: 1;
     }
+
     .section-07-web-designer-part {
       order: 2;
     }
+
     .section-07-web-designer-photo-container {
       order: 4;
     }
+
     .section-07-web-developer-part {
       width: 400px;
       order: 3;
@@ -524,16 +536,15 @@
       bottom: 1.7rem;
     }
 
-    .section-07-web-designer-part__title1, .section-07-web-designer-part__title2 {
+    .section-07-web-designer-part__title1,
+    .section-07-web-designer-part__title2 {
       font-size: 36px;
       width: 375px;
     }
   }
-
 }
 
 @media (min-width: 1200px) and (max-width: 1439px) {
-
   .section-07 {
     max-width: rem(1000);
     width: auto;
@@ -546,7 +557,7 @@
 
   .section-07-content-title {
     font-size: 2.25rem;
-    width: 15rem !important;
+    min-width: 15rem;
     margin: 0;
     padding-left: 0;
   }
@@ -599,6 +610,158 @@
     padding-top: 1rem;
   }
 
+  .section-07-web-part__text-container {
+    width: 230px;
+  }
+
+  .section-07-vaserman-container3 {
+    display: flex;
+    margin-left: 8rem;
+
+    .section-07__title-web-part-title1 {
+      width: 60px;
+    }
+
+    .section-07__title-web-part-title2 {
+      width: 70px;
+    }
+
+    .section-07__title-web-part-title3 {
+      width: 110px;
+      margin-right: 5px;
+    }
+
+    .section-07-web-part__text-bold {
+      margin: 0;
+    }
+
+    .section-07-web-part__text-normal {
+      margin: 0;
+    }
+  }
+
+  .section-07-web-part-container {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+
+    .section-07-web-part {
+      width: 373px;
+      margin-right: 200px;
+      order: 1;
+    }
+
+    .section-07-web-designer-part {
+      order: 2;
+    }
+
+    .section-07-web-designer-photo-container {
+      order: 4;
+    }
+
+    .section-07-web-developer-part {
+      width: 400px;
+      order: 3;
+    }
+
+    .section-07-web-designer-photo {
+      margin-left: 11rem;
+      width: 415px;
+    }
+
+    .section-07-web-developer-part__text {
+      width: 270px;
+    }
+
+    .section-07-web-designer-text {
+      width: 250px;
+      margin-left: 3rem;
+      margin-bottom: 4rem;
+    }
+
+    .section-07-web-designer-text:before {
+      right: 15.9rem;
+      bottom: 1.7rem;
+    }
+
+    .section-07-web-designer-part__title1,
+    .section-07-web-designer-part__title2 {
+      font-size: 36px;
+      width: 375px;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .section-07 {
+    max-width: rem(1440);
+    width: auto;
+  }
+
+  .section-07-container-content {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .section-07-content-title {
+    font-size: 2.25rem;
+    min-width: 15rem;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .section-07-content-text {
+    text-align: initial;
+    width: rem(200);
+  }
+
+  .section-07-content-text:before {
+    left: 12%;
+    top: 52%;
+  }
+
+  .section-07-vaserman {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-07-vaserman-container1 {
+    width: 600px;
+    order: 2;
+    display: flex;
+  }
+
+  .section-07-vaserman-container2 {
+    order: 1;
+  }
+
+  .section-07-vaserman__photo {
+    height: 300px;
+    width: 370px;
+  }
+
+  .section-07-vaserman-container3 {
+    width: 350px;
+    order: 3;
+    bottom: 125px;
+    position: relative;
+    left: 368px;
+  }
+
+  .section-07-vaserman__text-container {
+    width: 230px;
+    margin-right: auto;
+  }
+
+  .section-07-vaserman-container1-title {
+    margin-left: auto;
+    padding-top: 1rem;
+  }
+
+  .section-07-vaserman__text-container {
+    width: 230px;
+    margin-right: auto;
+  }
 
   .section-07-web-part__text-container {
     width: 230px;
@@ -628,7 +791,6 @@
     .section-07-web-part__text-normal {
       margin: 0;
     }
-
   }
 
   .section-07-web-part-container {
@@ -641,12 +803,15 @@
       margin-right: 200px;
       order: 1;
     }
+
     .section-07-web-designer-part {
       order: 2;
     }
+
     .section-07-web-designer-photo-container {
       order: 4;
     }
+
     .section-07-web-developer-part {
       width: 400px;
       order: 3;
@@ -672,161 +837,10 @@
       bottom: 1.7rem;
     }
 
-    .section-07-web-designer-part__title1, .section-07-web-designer-part__title2 {
+    .section-07-web-designer-part__title1,
+    .section-07-web-designer-part__title2 {
       font-size: 36px;
       width: 375px;
     }
-
   }
 }
-
-@media (min-width: 1440px) {
-    .section-07 {
-      max-width: rem(1440);
-      width: auto;
-    }
-
-    .section-07-container-content {
-      display: flex;
-      justify-content: space-around;
-    }
-
-    .section-07-content-title {
-      font-size: 2.25rem;
-      width: 15rem !important;
-      margin: 0;
-      padding-left: 0;
-    }
-
-    .section-07-content-text {
-      text-align: initial;
-      width: rem(200);
-    }
-
-    .section-07-content-text:before {
-      left: 12%;
-      top: 52%;
-    }
-
-    .section-07-vaserman {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .section-07-vaserman-container1 {
-      width: 600px;
-      order: 2;
-      display: flex;
-    }
-
-    .section-07-vaserman-container2 {
-      order: 1;
-    }
-
-    .section-07-vaserman__photo {
-      height: 300px;
-      width: 370px;
-    }
-
-    .section-07-vaserman-container3 {
-      width: 350px;
-      order: 3;
-      bottom: 125px;
-      position: relative;
-      left: 368px;
-    }
-
-    .section-07-vaserman__text-container {
-      width: 230px;
-      margin-right: auto;
-    }
-
-    .section-07-vaserman-container1-title {
-      margin-left: auto;
-      padding-top: 1rem;
-    }
-
-    .section-07-vaserman__text-container {
-      width: 230px;
-      margin-right: auto;
-    }
-
-    .section-07-web-part__text-container {
-      width: 230px;
-    }
-
-    .section-07-vaserman-container3 {
-      display: flex;
-      margin-left: 8rem;
-
-      .section-07__title-web-part-title1 {
-        width: 60px;
-      }
-
-      .section-07__title-web-part-title2 {
-        width: 70px;
-      }
-
-      .section-07__title-web-part-title3 {
-        width: 110px;
-        margin-right: 5px;
-      }
-
-      .section-07-web-part__text-bold {
-        margin: 0;
-      }
-
-      .section-07-web-part__text-normal {
-        margin: 0;
-      }
-
-    }
-
-    .section-07-web-part-container {
-      display: flex;
-      max-width: 1000px;
-      flex-wrap: wrap;
-
-      .section-07-web-part {
-        width: 373px;
-        margin-right: 200px;
-        order: 1;
-      }
-      .section-07-web-designer-part {
-        order: 2;
-      }
-      .section-07-web-designer-photo-container {
-        order: 4;
-      }
-      .section-07-web-developer-part {
-        width: 400px;
-        order: 3;
-      }
-
-      .section-07-web-designer-photo {
-        margin-left: 11rem;
-        width: 415px;
-      }
-
-      .section-07-web-developer-part__text {
-        width: 270px;
-      }
-
-      .section-07-web-designer-text {
-        width: 250px;
-        margin-left: 3rem;
-        margin-bottom: 4rem;
-      }
-
-      .section-07-web-designer-text:before {
-        right: 15.9rem;
-        bottom: 1.7rem;
-      }
-
-      .section-07-web-designer-part__title1, .section-07-web-designer-part__title2 {
-        font-size: 36px;
-        width: 375px;
-      }
-
-    }
-  }

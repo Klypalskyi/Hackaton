@@ -3,12 +3,14 @@
   @return #{$result}rem;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: auto;
-}
+$textSizeMobile: rem(9);
+$mainTitleMobile: rem(12);
+$textSizeSmart: rem(13.5);
+$mainTitleSmart: rem(18);
+$textSizeNotebook: rem(10);
+$mainTitleNotebook: rem(30);
+$textSizeDesktop: rem(12);
+$mainTitleDesktop: rem(36);
 
 // * Заголовок хедера H1*/
 @mixin leftside__title {
