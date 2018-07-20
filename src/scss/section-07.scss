@@ -1,0 +1,832 @@
+.section-07 {
+  padding: rem(12) rem(10) 0 rem(10);
+  width: rem(300);
+  margin: auto;
+}
+
+.section-07-web-part-laptop {
+  width: rem(236);
+  height: rem(145);
+}
+
+.section-07-web-developer-part__text{
+  font-family: Acrom-regular,sans-serif;
+  font-size: .65625rem;
+  padding-top: rem(15);
+  color: #3f4144;
+}
+
+.section-07-web-developer-part__title{
+  font-family: Acrom-extrabold,sans-serif;
+  padding-top: rem(22);
+}
+
+.section-07-web-designer-photo {
+  width: rem(300);
+  height: rem(130);
+}
+
+.section-07-content-title, .section-07__title-web-part-title {
+  @include sub-title;
+}
+
+.section-07-web-part-laptop-container, .section-07-web-designer-photo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.section-07-container-content {
+
+  position: relative;
+
+}
+
+.section-07-content-title {
+  padding-left: 10%;
+  width: 10rem;
+}
+
+.section-07-content-text {
+  @include text;
+  font-family: "Acrom-Bold", sans-serif;
+  padding-top: rem(20);
+  text-align: justify;
+  width: 14.25rem;
+  padding-left: 10%;
+}
+
+.section-07-content-text::before {
+  color: #000;
+  content: "-";
+  font-size: 2rem;
+  padding-top: rem(14);
+  position: absolute;
+  left: 5%;
+  top: 13%;
+}
+
+.section-07-vaserman__title1, .section-07-vaserman__title2, .section-07__title-web-part-title1, .section-07__title-web-part-title2, .section-07__title-web-part-title3 {
+  @include sub-title;
+  color: #ffffff;
+  @include black-ground;
+}
+
+.section-07-vaserman-container3-title{
+  padding-top: 1rem;
+}
+
+.section-07-vaserman__title1 {
+  width: rem(55);
+  margin: rem(1);
+  margin-left: 2rem;
+  font-size: 0.56rem;
+}
+
+.section-07-vaserman__title2 {
+  width: rem(85);
+  margin: rem(1);
+  margin-left: 2rem;
+  font-size: 0.56rem;
+}
+
+.section-07__title-web-part-title1 {
+  width: rem(120);
+  margin: rem(1);
+  margin-left: 2rem;
+  font-size: 0.56rem;
+}
+
+.section-07__title-web-part-title2 {
+  width: rem(119);
+  margin: rem(1);
+  margin-left: 2rem;
+  font-size: 0.56rem;
+}
+
+.section-07__title-web-part-title3 {
+  width: rem(114);
+  margin: rem(1);
+  margin-left: 2rem;
+  font-size: 0.56rem;
+}
+
+.section-07-vaserman__text-bold, .section-07-web-part__text-bold {
+  @include text;
+  font-weight: bold;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.section-07-vaserman__text-normal, .section-07-web-part__text-normal {
+  @include text;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.section-07-web-designer-part__title1, .section-07-web-designer-part__title2 {
+  @include title;
+  font-size: rem(15);
+  margin: rem(1);
+  margin-left: 2rem;
+  width: rem(170);
+}
+
+.section-07-web-designer-text {
+  @include text;
+  font-family: "Acrom-Bold", sans-serif;
+  text-align: justify;
+  width: rem(180);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+
+  &::before {
+    color: #000;
+    content: "-";
+    font-size: 2rem;
+    padding-top: rem(15);
+    position: absolute;
+    right: 11.5rem;
+    bottom: 8.5rem;
+
+  }
+
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .section-07 {
+    padding: rem(70) rem(16) 0;
+    width: rem(448);
+    margin: auto;
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 959px) {
+  .section-07 {
+    max-width: rem(959);
+    width: auto;
+  }
+
+  .section-07-container-content {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .section-07-content-title {
+    font-size: 2.25rem;
+    width: 15rem !important;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .section-07-content-text {
+    text-align: initial;
+    width: rem(160);
+    font-size: 9px;
+    font-family: 'Acrom-medium', sans-serif;
+    padding-top: 2rem;
+  }
+
+  .section-06-picture {
+    width: rem(275);
+    height: rem(175);
+  }
+
+  .section-07-content-text:before {
+    left: 12%;
+    top: 52%;
+  }
+
+  .section-07-vaserman {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+  }
+
+  .section-07-vaserman-container1 {
+    width: 460px;
+    order: 2;
+    display: flex;
+
+    .section-07-vaserman__text-normal, .section-07-web-part__text-normal {
+      font-size: 8px;
+      padding-top: 1rem;
+      width: rem(175);
+    }
+
+    .section-07-vaserman__text-bold, .section-07-web-part__text-bold {
+      font-size: 9px;
+      width: rem(175);
+    }
+
+  }
+
+  .section-07-vaserman-container2 {
+    order: 1;
+  }
+
+  .section-07-vaserman__photo {
+    height: 225px;
+    width: 275px;
+  }
+
+  .section-07-vaserman-container3 {
+    width: 350px;
+    order: 3;
+    bottom: 125px;
+    position: relative;
+    left: 368px;
+  }
+
+  .section-07-vaserman__text-container {
+    width: auto;
+    margin-right: auto;
+  }
+
+  .section-07-vaserman-container1-title {
+    margin-left: auto;
+    padding-top: 1rem;
+  }
+
+  .section-07-web-part__text-container {
+    width: 230px;
+  }
+
+  .section-07-vaserman-container3 {
+    display: flex;
+    margin-left: 0rem;
+    width: auto;
+    left: 330px;
+    bottom: 70px;
+
+    .section-07__title-web-part-title1 {
+      width: 60px;
+    }
+
+    .section-07__title-web-part-title2 {
+      width: 70px;
+    }
+
+    .section-07__title-web-part-title3 {
+      width: 110px;
+      margin-right: 5px;
+    }
+
+    .section-07-web-part__text-bold {
+      margin: 0;
+    }
+
+    .section-07-web-part__text-normal {
+      margin: 0;
+    }
+
+    .section-07-vaserman__text-normal, .section-07-web-part__text-normal {
+      font-size: 8px;
+      padding-top: 1rem;
+      width: rem(175);
+    }
+
+    .section-07-vaserman__text-bold, .section-07-web-part__text-bold {
+      font-size: 9px;
+      width: rem(175);
+    }
+
+  }
+
+  .section-07-web-part-container {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+
+    .section-07-web-part {
+      width: 320px;
+      margin-right: 0px;
+      order: 1;
+    }
+    .section-07-web-designer-part {
+      order: 2;
+    }
+    .section-07-web-designer-photo-container {
+      order: 4;
+    }
+    .section-07-web-developer-part {
+      width: 400px;
+      order: 3;
+    }
+
+    .section-07-web-designer-photo {
+      margin-left: 0rem;
+      width: 316px;
+      height: 185px;
+    }
+
+    .section-07-web-developer-part__text {
+      width: 270px;
+    }
+
+    .section-07-web-designer-text {
+      width: 250px;
+      margin-left: 3rem;
+      margin-bottom: 4rem;
+      font-size: 10px;
+    }
+
+    .section-07-web-designer-text:before {
+      right: 15.9rem;
+      bottom: 1.7rem;
+    }
+
+    .section-07-web-designer-part__title1, .section-07-web-designer-part__title2 {
+      font-size: 36px;
+      width: 375px;
+    }
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+  .section-07 {
+    max-width: rem(1000);
+    width: auto;
+  }
+
+  .section-07-container-content {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .section-07-content-title {
+    font-size: 2.25rem;
+    width: 15rem !important;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .section-07-content-text {
+    text-align: initial;
+    width: rem(160);
+    font-size: 9px;
+    font-family: 'Acrom-medium', sans-serif;
+    padding-top: 2rem;
+  }
+
+  .section-06-picture {
+    width: rem(275);
+    height: rem(175);
+  }
+
+  .section-07-content-text:before {
+    left: 12%;
+    top: 52%;
+  }
+
+  .section-07-vaserman {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+  }
+
+  .section-07-vaserman-container1 {
+    width: 460px;
+    order: 2;
+    display: flex;
+
+    .section-07-vaserman__text-normal, .section-07-web-part__text-normal {
+      font-size: 8px;
+      padding-top: 1rem;
+      width: rem(175);
+    }
+
+    .section-07-vaserman__text-bold, .section-07-web-part__text-bold {
+      font-size: 9px;
+      width: rem(175);
+    }
+
+  }
+
+  .section-07-vaserman-container2 {
+    order: 1;
+  }
+
+  .section-07-vaserman__photo {
+    height: 225px;
+    width: 275px;
+  }
+
+  .section-07-vaserman-container3 {
+    width: 350px;
+    order: 3;
+    bottom: 125px;
+    position: relative;
+    left: 368px;
+  }
+
+  .section-07-vaserman__text-container {
+    width: auto;
+    margin-right: auto;
+  }
+
+  .section-07-vaserman-container1-title {
+    margin-left: auto;
+    padding-top: 1rem;
+  }
+
+  .section-07-web-part__text-container {
+    width: 230px;
+  }
+
+  .section-07-vaserman-container3 {
+    display: flex;
+    margin-left: 0rem;
+    width: auto;
+    left: 330px;
+    bottom: 70px;
+
+    .section-07__title-web-part-title1 {
+      width: 60px;
+    }
+
+    .section-07__title-web-part-title2 {
+      width: 70px;
+    }
+
+    .section-07__title-web-part-title3 {
+      width: 110px;
+      margin-right: 5px;
+    }
+
+    .section-07-web-part__text-bold {
+      margin: 0;
+    }
+
+    .section-07-web-part__text-normal {
+      margin: 0;
+    }
+
+    .section-07-vaserman__text-normal, .section-07-web-part__text-normal {
+      font-size: 8px;
+      padding-top: 1rem;
+      width: rem(175);
+    }
+
+    .section-07-vaserman__text-bold, .section-07-web-part__text-bold {
+      font-size: 9px;
+      width: rem(175);
+    }
+
+  }
+
+  .section-07-web-part-container {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+
+    .section-07-web-part {
+      width: 320px;
+      margin-right: 0px;
+      order: 1;
+    }
+    .section-07-web-designer-part {
+      order: 2;
+    }
+    .section-07-web-designer-photo-container {
+      order: 4;
+    }
+    .section-07-web-developer-part {
+      width: 400px;
+      order: 3;
+    }
+
+    .section-07-web-designer-photo {
+      margin-left: 0rem;
+      width: 316px;
+      height: 185px;
+    }
+
+    .section-07-web-developer-part__text {
+      width: 270px;
+    }
+
+    .section-07-web-designer-text {
+      width: 250px;
+      margin-left: 3rem;
+      margin-bottom: 4rem;
+      font-size: 10px;
+    }
+
+    .section-07-web-designer-text:before {
+      right: 15.9rem;
+      bottom: 1.7rem;
+    }
+
+    .section-07-web-designer-part__title1, .section-07-web-designer-part__title2 {
+      font-size: 36px;
+      width: 375px;
+    }
+  }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+  .section-07 {
+    max-width: rem(1000);
+    width: auto;
+  }
+
+  .section-07-container-content {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .section-07-content-title {
+    font-size: 2.25rem;
+    width: 15rem !important;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .section-07-content-text {
+    text-align: initial;
+    width: rem(200);
+  }
+
+  .section-07-content-text:before {
+    left: 12%;
+    top: 52%;
+  }
+
+  .section-07-vaserman {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-07-vaserman-container1 {
+    width: 450px;
+    order: 2;
+    display: flex;
+  }
+
+  .section-07-vaserman-container2 {
+    order: 1;
+  }
+
+  .section-07-vaserman__photo {
+    height: 300px;
+    width: 370px;
+  }
+
+  .section-07-vaserman-container3 {
+    width: 400px;
+    order: 3;
+    bottom: 70px;
+    position: relative;
+    left: 260px;
+  }
+
+  .section-07-vaserman__text-container {
+    width: 300px;
+    margin-right: auto;
+  }
+
+  .section-07-vaserman-container1-title {
+    margin-left: auto;
+    padding-top: 1rem;
+  }
+
+
+  .section-07-web-part__text-container {
+    width: 230px;
+  }
+
+  .section-07-vaserman-container3 {
+    display: flex;
+    margin-left: 8rem;
+
+    .section-07__title-web-part-title1 {
+      width: 60px;
+    }
+
+    .section-07__title-web-part-title2 {
+      width: 70px;
+    }
+
+    .section-07__title-web-part-title3 {
+      width: 110px;
+      margin-right: 5px;
+    }
+
+    .section-07-web-part__text-bold {
+      margin: 0;
+    }
+
+    .section-07-web-part__text-normal {
+      margin: 0;
+    }
+
+  }
+
+  .section-07-web-part-container {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+
+    .section-07-web-part {
+      width: 373px;
+      margin-right: 200px;
+      order: 1;
+    }
+    .section-07-web-designer-part {
+      order: 2;
+    }
+    .section-07-web-designer-photo-container {
+      order: 4;
+    }
+    .section-07-web-developer-part {
+      width: 400px;
+      order: 3;
+    }
+
+    .section-07-web-designer-photo {
+      margin-left: 11rem;
+      width: 415px;
+    }
+
+    .section-07-web-developer-part__text {
+      width: 270px;
+    }
+
+    .section-07-web-designer-text {
+      width: 250px;
+      margin-left: 3rem;
+      margin-bottom: 4rem;
+    }
+
+    .section-07-web-designer-text:before {
+      right: 15.9rem;
+      bottom: 1.7rem;
+    }
+
+    .section-07-web-designer-part__title1, .section-07-web-designer-part__title2 {
+      font-size: 36px;
+      width: 375px;
+    }
+
+  }
+}
+
+@media (min-width: 1440px) {
+    .section-07 {
+      max-width: rem(1440);
+      width: auto;
+    }
+
+    .section-07-container-content {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .section-07-content-title {
+      font-size: 2.25rem;
+      width: 15rem !important;
+      margin: 0;
+      padding-left: 0;
+    }
+
+    .section-07-content-text {
+      text-align: initial;
+      width: rem(200);
+    }
+
+    .section-07-content-text:before {
+      left: 12%;
+      top: 52%;
+    }
+
+    .section-07-vaserman {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .section-07-vaserman-container1 {
+      width: 600px;
+      order: 2;
+      display: flex;
+    }
+
+    .section-07-vaserman-container2 {
+      order: 1;
+    }
+
+    .section-07-vaserman__photo {
+      height: 300px;
+      width: 370px;
+    }
+
+    .section-07-vaserman-container3 {
+      width: 350px;
+      order: 3;
+      bottom: 125px;
+      position: relative;
+      left: 368px;
+    }
+
+    .section-07-vaserman__text-container {
+      width: 230px;
+      margin-right: auto;
+    }
+
+    .section-07-vaserman-container1-title {
+      margin-left: auto;
+      padding-top: 1rem;
+    }
+
+    .section-07-vaserman__text-container {
+      width: 230px;
+      margin-right: auto;
+    }
+
+    .section-07-web-part__text-container {
+      width: 230px;
+    }
+
+    .section-07-vaserman-container3 {
+      display: flex;
+      margin-left: 8rem;
+
+      .section-07__title-web-part-title1 {
+        width: 60px;
+      }
+
+      .section-07__title-web-part-title2 {
+        width: 70px;
+      }
+
+      .section-07__title-web-part-title3 {
+        width: 110px;
+        margin-right: 5px;
+      }
+
+      .section-07-web-part__text-bold {
+        margin: 0;
+      }
+
+      .section-07-web-part__text-normal {
+        margin: 0;
+      }
+
+    }
+
+    .section-07-web-part-container {
+      display: flex;
+      max-width: 1000px;
+      flex-wrap: wrap;
+
+      .section-07-web-part {
+        width: 373px;
+        margin-right: 200px;
+        order: 1;
+      }
+      .section-07-web-designer-part {
+        order: 2;
+      }
+      .section-07-web-designer-photo-container {
+        order: 4;
+      }
+      .section-07-web-developer-part {
+        width: 400px;
+        order: 3;
+      }
+
+      .section-07-web-designer-photo {
+        margin-left: 11rem;
+        width: 415px;
+      }
+
+      .section-07-web-developer-part__text {
+        width: 270px;
+      }
+
+      .section-07-web-designer-text {
+        width: 250px;
+        margin-left: 3rem;
+        margin-bottom: 4rem;
+      }
+
+      .section-07-web-designer-text:before {
+        right: 15.9rem;
+        bottom: 1.7rem;
+      }
+
+      .section-07-web-designer-part__title1, .section-07-web-designer-part__title2 {
+        font-size: 36px;
+        width: 375px;
+      }
+
+    }
+  }
