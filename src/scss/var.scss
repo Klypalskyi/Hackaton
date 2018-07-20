@@ -1,23 +1,24 @@
 @function rem($px) {
-  $result: $px / 16;
-  @return #{$result}rem;
+    $result: $px / 16;
+    @return #{$result}rem;
+  }
+
+  img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: auto;
 }
 
-$textSizeMobile: rem(9);
-$mainTitleMobile: rem(12);
-$textSizeSmart: rem(13.5);
-$mainTitleSmart: rem(18);
-$textSizeNotebook: rem(10);
-$mainTitleNotebook: rem(30);
-$textSizeDesktop: rem(12);
-$mainTitleDesktop: rem(36);
 
 
-/* Заголовок хедера H1*/
+
+
+
+// * Заголовок хедера H1*/
 @mixin leftside__title {
   font-family: "Acrom-extrabold", sans-serif;
   color: #fff;
-  font-size: rem(60);
   text-transform: uppercase;
 }
 
@@ -28,31 +29,24 @@ $mainTitleDesktop: rem(36);
   text-transform: uppercase;
 }
 
-.main__title {
-  @include title;
-}
-
 /* Основной текс */
 @mixin text {
   font-family: "Acrom-regular", sans-serif;
+  font-size: rem(10.5);
   color: #3f4144;
-}
-
-.main__text {
-  @include text;
 }
 
 /* СЕРЫЙ ВЕРТИКАЬЫНЙ ТЕКС ВОЗЛЕ КАРТИНОК */
 @mixin gray-vetical-text {
   font-family: "Acrom-extrabold", sans-serif;
   color: #f2f2f2;
+  font-size: rem(187.5);
   text-transform: uppercase;
 }
 
 /* СПАН ДЛЯ СКОБОК В ЗАГОЛОВКАХ */
 @mixin s-bracket {
   font-family: "Acrom-bold", sans-serif;
-  letter-spacing: rem(3);
 }
 
 /* USE SPAN FOR THIS */
@@ -79,6 +73,33 @@ $mainTitleDesktop: rem(36);
 
 $text-orange: #ff6b08;
 
+<<<<<<< HEAD
+
+
+// цвета заголовков
+$titleColorWh: #ffffff;     
+$titleColorBl: #000000;
+
+
+// цвета текста
+$textColorBl: #000000;
+$textColorWh: #ffffff;
+$textColorOr: #ff6b08;
+$textColorGr: #afb0b3;
+$textColorGr2: #bfbfbf;
+$textColorGr3: #3f4144;
+$textColorFtr1: #a2a2a2;
+$textColorFtr2: #65666a;
+
+// цвета фонов кнопок, buttonBgFtr - из футера
+$buttonBg: #ff6b08;
+$buttonBgFtr: #181c27;
+
+// цвета фонов текста
+$textBgSn: #16ebfe;
+$textBgWh: #ffffff;
+$textBgBl: #000000;
+=======
 @mixin orange {
   color: $text-orange;
   font-family: 'Acrom-medium', sans-serif;
@@ -252,3 +273,4 @@ $text-orange: #ff6b08;
     }
   }
 }
+>>>>>>> master

@@ -1,9 +1,16 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+.container {
+	min-width: rem(320);
+	max-width: rem(1440);
+	margin: auto;
+}
+=======
 img {
   display: block;
   max-width: 100%;
@@ -19,3 +26,4 @@ ul {
   list-style: none;
 }
 
+>>>>>>> master
