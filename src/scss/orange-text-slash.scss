@@ -2,9 +2,11 @@
   .orange {
     margin: auto;
     font-size: $textSizeMobile;
-    max-width: 71.59%;
+    max-width: 81.1%;
     margin-bottom: rem(16);
     position: relative;
+    padding-left: rem(18.38);
+    line-height: rem(13);
   }
 
   .orange::before {
@@ -14,23 +16,73 @@
     min-width: rem(10);
     background: #000;
     position: absolute;
-    left: rem(-18);
+    left: rem(0);
     top: rem(5);
-    transform: rotate(125deg)
+    transform: rotate(125deg);
   }
 }
 
 @media (min-width: 480px) {
+  .orange {
+    font-size: $textSizeSmart;
+    line-height: rem(19.5);
+  }
+
+  .orange::before {
+    min-width: rem(13);
+    min-height: rem(2);
+  }
 }
 
-@media (min-width: 786px) {
+@media (min-width: 768px) {
+  .orange {
+    font-size: $textSizeMobile;
+    line-height: rem(13.46);
+  }
+
+  .orange::before {
+    left: rem(0);
+    top: rem(13);
+    min-width: rem(20);
+    min-height: rem(2);
+  }
 }
 
 @media (min-width: 960px) {
+  .orange {
+    font-size: rem(11.22);
+    line-height: rem(16.82);
+    padding-left: rem(30.5);
+  }
+
+  .orange::before {
+    min-width: rem(24.18);
+    min-height: rem(2.5);
+  }
 }
 
 @media (min-width: 1200px) {
+  .orange {
+    font-size: rem(10);
+    line-height: rem(15);
+    padding-left: rem(26.36);
+  }
+
+  .orange::before {
+    min-width: rem(24.18);
+    min-height: rem(2.83);
+  }
 }
 
 @media (min-width: 1440px) {
+  .orange {
+    font-size: $textSizeDesktop;
+    line-height: rem(18);
+    padding-left: rem(32.35);
+  }
+
+  .orange::before {
+    min-width: rem(24.18);
+    min-height: rem(2.83);
+  }
 }
