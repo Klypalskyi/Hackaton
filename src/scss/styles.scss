@@ -1,29 +1,47 @@
 /*
    Import partials below
 */
-//@import 'normalize';
+
+@import "normalize";
+
+@import "var";
+
+@import "varp";
+
+@import "container";
+
 @import 'fonts';
-@import 'var';
-<<<<<<< HEAD
+
 @import 'reset';
-@import 'style09';
-@import 'style10';
-@import 'style11';
 
-=======
-
-@import 'fonts';
-
-@import "reset";
+@import "special-list";
 
 @import "orange-text-slash";
 
-@import "container";
+@import "text_vs_left-dash";
 
 @import "section-05";
 
 @import "section-06";
 
 @import "section-07";
->>>>>>> master
 
+@import 'style09';
+
+@import 'style10';
+
+@import 'style11';
+
+@import "thirteen";
+
+@import "fourteen";
+
+@import "fifteen";
+
+@import "sixteen";
+
+@import "section17";
+
+@import "section18";
+
+@import "footer";
