@@ -1,6 +1,7 @@
 /*
    Import partials below
 */
+
 @import "normalize";
 
 @import "var";
@@ -9,15 +10,27 @@
 
 @import "container";
 
-@import "reset";
+@import 'fonts';
 
-@import "fonts";
+@import 'reset';
 
 @import "special-list";
 
 @import "orange-text-slash";
 
 @import "text_vs_left-dash";
+
+@import "section-05";
+
+@import "section-06";
+
+@import "section-07";
+
+@import 'style09';
+
+@import 'style10';
+
+@import 'style11';
 
 @import "thirteen";
 
