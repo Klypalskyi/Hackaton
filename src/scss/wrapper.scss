@@ -1,0 +1,75 @@
+.wrapper-header {
+	background-color: #181c27;
+
+}
+
+.wrapper-header::after {
+	position: absolute;
+	content: "goit";
+	@include leftside__title
+	font-size: rem(80);
+	color: rgba(0, 0, 0, 0.2);
+	top: rem(160);
+	left: 50%;
+	margin-left: rem(-109.2815);
+}
+
+.wrapper-header__fon {
+	background-image: radial-gradient(circle at 161px 146px, #1a314a 1%, transparent 59%);
+	padding-top: rem(10);
+   	padding-right: rem(12);
+   	padding-left: rem(12);
+   	padding-bottom: rem(26);
+   	
+}
+
+.wrapper-header-text {
+	position: relative;
+   	z-index: 1;
+}
+
+.wrapper-section {
+	background-color: #fff;
+}
+
+@media (min-width: 480px) {
+	.wrapper-header::after {
+		font-size: rem(120);
+		top: rem(240);
+		margin-left: rem(-163.922);
+	}
+
+	.wrapper-header__fon {
+		background-image: radial-gradient(circle at 244px 209px, #1a314a 1%, transparent 68%);
+	}
+}
+
+@media (min-width: 768px) {
+	.wrapper-header::after {
+		font-size: rem(235.53);
+		top: rem(100.8);
+		margin-left: rem(-804.359/2);
+	}
+
+	.wrapper-header__fon {
+		background-image: radial-gradient(ellipse at 385px 197px,#1a314a 1%,transparent 76%);
+		padding-top: rem(21);
+		padding-bottom: rem(0);
+		padding-right: rem(64);
+   		padding-left: rem(64);
+	}
+}
+
+@media (min-width: 960px) {
+	.wrapper-header::after {
+		font-size: rem(294.42);
+		top: rem(100.8);
+		margin-left: rem(-776/2);
+	}
+
+	.wrapper-header__fon {
+		padding-top: rem(26);
+		padding-right: rem(63);
+   		padding-left: rem(63);
+	}
+}
