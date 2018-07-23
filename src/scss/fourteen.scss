@@ -48,6 +48,16 @@
     min-width: 100%;
   }
 
+  .orange-button:hover {
+    background: #17ecff;
+    box-shadow: 0 rem(4) rem(5) rgba(23, 236, 255, 0.26); 
+  }
+
+  .orange-button:focus {
+    background: #06a4b2;
+    box-shadow: 0 rem(4) rem(5) rgba(6, 164, 178, 0.26);
+  }
+
   .special--box > .orange-button > .button-text {
     font-family: "Acrom-extrabold", sans-serif;
     color: #fff;
@@ -93,6 +103,14 @@
 
   .orange-button {
     box-shadow: 0 rem(5) rem(6) #f1d6c5;
+  }
+
+  .orange-button:hover {
+    box-shadow: 0 rem(5) rem(6) rgba(23, 236, 255, 0.26); 
+  }
+
+  .orange-button:focus {
+    box-shadow: 0 rem(5) rem(6) rgba(6, 164, 178, 0.26);
   }
 }
 
@@ -171,6 +189,14 @@
     min-width: 85.3%;
     margin-left: rem(22.83);
   }
+
+  .orange-button:hover {
+    box-shadow: 0 rem(7) rem(9) rgba(23, 236, 255, 0.26); 
+  }
+
+  .orange-button:focus {
+    box-shadow: 0 rem(7) rem(9) rgba(6, 164, 178, 0.26);
+  }
 }
 
 @media (min-width: 960px) {
@@ -246,6 +272,14 @@
     box-shadow: 0 rem(9) rem(13) #f1d6c5;
     margin-left: rem(26.13);
   }
+
+  .orange-button:hover {
+    box-shadow: 0 rem(9) rem(13) rgba(23, 236, 255, 0.26); 
+  }
+
+  .orange-button:focus {
+    box-shadow: 0 rem(9) rem(13) rgba(6, 164, 178, 0.26);
+  }
 }
 
 @media (min-width: 1440px) {
@@ -284,5 +318,13 @@
     min-width: 84%;
     box-shadow: 0 rem(11) rem(16) #f1d6c5;
     margin-left: rem(31.87);
+  }
+
+  .orange-button:hover {
+    box-shadow: 0 rem(11) rem(16) rgba(23, 236, 255, 0.26); 
+  }
+
+  .orange-button:focus {
+    box-shadow: 0 rem(11) rem(16) rgba(6, 164, 178, 0.26);
   }
 }
