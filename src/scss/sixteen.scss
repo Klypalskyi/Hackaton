@@ -92,6 +92,16 @@
     min-width: 72%;
   }
 
+  #form-sixteen > .orange-button:hover {
+    background: #17ecff;
+    box-shadow: 0 rem(4) rem(5) rgba(23, 236, 255, 0.26); 
+  }
+
+  #form-sixteen > .orange-button:focus {
+    background: #06a4b2;
+    box-shadow: 0 rem(4) rem(5) rgba(6, 164, 178, 0.26);
+  }
+
   #form-sixteen > .orange-button > .button-text {
     font-family: "Acrom-extrabold", sans-serif;
     color: #fff;
@@ -160,6 +170,14 @@
 
   #form-sixteen > .orange-button {
     box-shadow: 0 rem(5) rem(6) #f1d6c5;
+  }
+
+  #form-sixteen > .orange-button:hover {
+    box-shadow: 0 rem(5) rem(6) rgba(23, 236, 255, 0.26); 
+  }
+
+  #form-sixteen > .orange-button:focus {
+    box-shadow: 0 rem(5) rem(6) rgba(6, 164, 178, 0.26);
   }
 
   #form-sixteen > .orange-button > .button-text {
@@ -243,6 +261,14 @@
 
   #form-sixteen > .orange-button {
     box-shadow: 0 rem(9) rem(13) #f1d6c5;
+  }
+
+  #form-sixteen > .orange-button:hover {
+    box-shadow: 0 rem(9) rem(13) rgba(23, 236, 255, 0.26); 
+  }
+
+  #form-sixteen > .orange-button:focus {
+    box-shadow: 0 rem(9) rem(13) rgba(6, 164, 178, 0.26);
   }
 
   #form-sixteen > .orange-button > .button-text {
@@ -454,5 +480,13 @@
 
   #form-sixteen > .orange-button {
     box-shadow: 0 rem(11) rem(16) #f1d6c5;
+  }
+
+  #form-sixteen > .orange-button:hover {
+    box-shadow: 0 rem(11) rem(16) rgba(23, 236, 255, 0.26); 
+  }
+
+  #form-sixteen > .orange-button:focus {
+    box-shadow: 0 rem(11) rem(16) rgba(6, 164, 178, 0.26);
   }
 }

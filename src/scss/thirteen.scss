@@ -334,14 +334,11 @@
 }
 
 @media (min-width: 1200px) {
-  .section-thirteen,
-  .section-fourteen,
-  .section-fifteen,
-  .section-sixteen {
-    padding: rem(124.38) rem(12) 0;
+  .section-thirteen {
+    padding: rem(122.25) rem(12) 0;
   }
 
-  .title__text, {
+  .title__text {
     font-size: $textSizeNotebook;
     line-height: rem(15);
   }
@@ -380,11 +377,12 @@
 }
 
 @media (min-width: 1440px) {
-  .section-thirteen,
-  .section-fourteen,
-  .section-fifteen,
-  .section-sixteen {
-    padding: rem(149.25) rem(12) 0;
+  .section-thirteen {
+    padding: rem(145.84) rem(12) 0;
+  }
+
+  .section-thirteen__header {
+    margin-bottom: rem(6);
   }
 
   .section-thirteen__gray-text {
