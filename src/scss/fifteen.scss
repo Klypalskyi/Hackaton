@@ -1,6 +1,14 @@
 @media (min-width: 320px) {
-  .seсtion-fifteen {
-    padding-top: rem(46);
+  .section-fifteen {
+    padding: rem(45.67) rem(12) 0;
+  }
+
+  .section-fifteen__top {
+    margin-bottom: rem(20);
+  }
+
+  .section-fifteen__mid {
+    margin-bottom: rem(30);
   }
 
   .top__left {
@@ -100,6 +108,18 @@
 }
 
 @media (min-width: 480px) {
+  .seсtion-fifteen {
+    padding: rem(68.5) rem(12) 0;
+  }
+
+  .section-fifteen__top {
+    margin-bottom: rem(29.67);
+  }
+
+  .section-fifteen__mid {
+    margin-bottom: rem(45.33);
+  }
+
   .top__left > .title__text {
     padding-left: rem(38.58);
   }
@@ -129,6 +149,18 @@
 }
 
 @media (min-width: 768px) {
+  .section-fifteen {
+    padding: rem(84) rem(12) 0;
+  }
+
+  .section-fifteen__top {
+    margin-bottom: rem(49);
+  }
+
+  .section-fifteen__mid {
+    margin-bottom: rem(55);
+  }
+
   .section-fifteen__top {
     display: flex;
     flex-direction: row-reverse;
@@ -236,6 +268,18 @@
 }
 
 @media (min-width: 960px) {
+  .section-fifteen {
+    padding: rem(101) rem(12) 0;
+  }
+
+  .section-fifteen__top {
+    margin-bottom: rem(62);
+  }
+
+  .section-fifteen__mid {
+    margin-bottom: rem(69);
+  }
+
   .top__left > .main__title {
     font-size: rem(26.92);
   }
@@ -289,6 +333,18 @@
 }
 
 @media (min-width: 1200px) {
+  .section-fifteen {
+    padding: rem(105.72) rem(12) 0;
+  }
+
+  .section-fifteen__top {
+    margin-bottom: rem(56);
+  }
+
+  .section-fifteen__mid {
+    margin-bottom: rem(63);
+  }
+
   .top__left > .main__title {
     font-size: $mainTitleNotebook;
     margin-bottom: rem(25);
@@ -342,6 +398,18 @@
 }
 
 @media (min-width: 1440px) {
+  .section-fifteen {
+    padding: rem(132.16) rem(12) 0;
+  }
+
+  .section-fifteen__top {
+    margin-bottom: rem(67);
+  }
+
+  .section-fifteen__mid {
+    margin-bottom: rem(74);
+  }
+
   .top__left {
     flex-basis: 35%;
   }
