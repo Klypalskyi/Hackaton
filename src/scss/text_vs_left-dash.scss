@@ -6,7 +6,6 @@
     text-align: left;
     font-family: "Acrom-medium", sans-serif;
     font-size: $textSizeMobile;
-    margin-bottom: rem(39);
     text-align: left;
     position: relative;
     line-height: rem(13);
@@ -40,7 +39,7 @@
     font-size: $textSizeMobile;
     padding-left: rem(45.59);
     margin: 0;
-    max-width: 68%;
+    max-width: 100%;
   }
 
   .title__text::before {
