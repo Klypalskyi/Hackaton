@@ -1,6 +1,6 @@
 @media (min-width: 320px) {
   .section-sixteen {
-    padding-top: rem(59);
+    padding: rem(60) rem(12) 0;
   }
 
   .section-sixteen__left {
@@ -92,6 +92,16 @@
     min-width: 72%;
   }
 
+  #form-sixteen > .orange-button:hover {
+    background: #17ecff;
+    box-shadow: 0 rem(4) rem(5) rgba(23, 236, 255, 0.26); 
+  }
+
+  #form-sixteen > .orange-button:focus {
+    background: #06a4b2;
+    box-shadow: 0 rem(4) rem(5) rgba(6, 164, 178, 0.26);
+  }
+
   #form-sixteen > .orange-button > .button-text {
     font-family: "Acrom-extrabold", sans-serif;
     color: #fff;
@@ -104,6 +114,10 @@
 }
 
 @media (min-width: 480px) {
+  .section-sixteen {
+    padding: rem(90) rem(12) 0;
+  }
+
   .section-sixteen__left {
     max-width: 65.15%;
   }
@@ -162,6 +176,14 @@
     box-shadow: 0 rem(5) rem(6) #f1d6c5;
   }
 
+  #form-sixteen > .orange-button:hover {
+    box-shadow: 0 rem(5) rem(6) rgba(23, 236, 255, 0.26); 
+  }
+
+  #form-sixteen > .orange-button:focus {
+    box-shadow: 0 rem(5) rem(6) rgba(6, 164, 178, 0.26);
+  }
+
   #form-sixteen > .orange-button > .button-text {
     font-size: rem(7.97);
     letter-spacing: rem(1);
@@ -171,6 +193,7 @@
 
 @media (min-width: 768px) {
   .section-sixteen {
+    padding: rem(85.5) rem(12) 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -245,6 +268,14 @@
     box-shadow: 0 rem(9) rem(13) #f1d6c5;
   }
 
+  #form-sixteen > .orange-button:hover {
+    box-shadow: 0 rem(9) rem(13) rgba(23, 236, 255, 0.26); 
+  }
+
+  #form-sixteen > .orange-button:focus {
+    box-shadow: 0 rem(9) rem(13) rgba(6, 164, 178, 0.26);
+  }
+
   #form-sixteen > .orange-button > .button-text {
     font-size: rem(6.73);
     letter-spacing: rem(0);
@@ -253,6 +284,10 @@
 }
 
 @media (min-width: 960px) {
+  .section-sixteen {
+    padding: rem(108) rem(12) 0;
+  }
+
   .section-sixteen__list > .special::before {
     font-size: rem(21.03);
     top: rem(0);
@@ -319,6 +354,10 @@
 }
 
 @media (min-width: 1200px) {
+  .section-sixteen {
+    padding: rem(112) rem(12) 0;
+  }
+
   .section-sixteen__list > .special::before {
     font-size: rem(18.75);
     line-height: rem(22.5);
@@ -382,6 +421,10 @@
 }
 
 @media (min-width: 1440px) {
+  .section-sixteen {
+    padding: rem(134) rem(12) 0;
+  }
+
   .section-sixteen__left {
     flex-basis: 37%;
   }
@@ -454,5 +497,13 @@
 
   #form-sixteen > .orange-button {
     box-shadow: 0 rem(11) rem(16) #f1d6c5;
+  }
+
+  #form-sixteen > .orange-button:hover {
+    box-shadow: 0 rem(11) rem(16) rgba(23, 236, 255, 0.26); 
+  }
+
+  #form-sixteen > .orange-button:focus {
+    box-shadow: 0 rem(11) rem(16) rgba(6, 164, 178, 0.26);
   }
 }
