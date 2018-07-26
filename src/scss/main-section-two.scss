@@ -76,6 +76,10 @@
   margin-bottom: rem(10);
 }
 
+.info-section-two > li:last-child {
+  margin-bottom: rem(0);
+}
+
 .info-section-two > li:nth-last-child(2) > .info-section-list {
   margin-bottom: rem(0);
 }
@@ -123,6 +127,18 @@
     margin-right: rem(20);
     margin-left: rem(16);
   }
+
+  .info-section-two--item {
+    padding-left: rem(40);
+    margin-bottom: rem(25);
+  }
+
+  .info-section-two--item::before {
+    min-width: rem(9.5);
+    min-height: rem(9.5);  
+    top: rem(0);
+    left: rem(0);
+}
 
   .info-section-two--item {
     margin-bottom: rem(31);

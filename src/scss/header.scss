@@ -93,8 +93,9 @@
   @include leftside__title;
   font-size: rem(20);
   text-align: center;
-  padding: 0 rem(65);
+  max-width: 56%;
   line-height: rem(26);
+  margin: auto;
   margin-bottom: rem(22.53);
 }
 
@@ -107,7 +108,7 @@
   letter-spacing: rem(-0.05);
   margin: auto;
   text-align: center;
-  padding: 0 rem(26);
+  width: 82%;
 }
 
 .clearfix {
@@ -214,7 +215,6 @@
   }
 
   .text {
-    padding: 0 rem(46.5);
     font-size: rem(13.5);
     line-height: rem(19.5);
     letter-spacing: rem(-0.5);
