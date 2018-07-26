@@ -1,6 +1,6 @@
 @media (min-width: 320px) {
   .section-fourteen {
-    padding-top: rem(41.5);
+    padding: rem(41.5) rem(12) 0;
   }
 
   .section-fourteen > .leftside > .main__title {
@@ -48,6 +48,16 @@
     min-width: 100%;
   }
 
+  .orange-button:hover {
+    background: #17ecff;
+    box-shadow: 0 rem(4) rem(5) rgba(23, 236, 255, 0.26); 
+  }
+
+  .orange-button:focus {
+    background: #06a4b2;
+    box-shadow: 0 rem(4) rem(5) rgba(6, 164, 178, 0.26);
+  }
+
   .special--box > .orange-button > .button-text {
     font-family: "Acrom-extrabold", sans-serif;
     color: #fff;
@@ -64,6 +74,10 @@
 }
 
 @media (min-width: 480px) {
+  .section-fourteen {
+    padding: rem(62) rem(12) 0;
+  }
+
   .section-fourteen > .leftside > .main__title {
     font-size: rem(16.73);
   }
@@ -94,11 +108,19 @@
   .orange-button {
     box-shadow: 0 rem(5) rem(6) #f1d6c5;
   }
+
+  .orange-button:hover {
+    box-shadow: 0 rem(5) rem(6) rgba(23, 236, 255, 0.26); 
+  }
+
+  .orange-button:focus {
+    box-shadow: 0 rem(5) rem(6) rgba(6, 164, 178, 0.26);
+  }
 }
 
 @media (min-width: 768px) {
   .section-fourteen {
-    max-height: rem(308);
+    padding: rem(70) rem(12) 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -171,9 +193,21 @@
     min-width: 85.3%;
     margin-left: rem(22.83);
   }
+
+  .orange-button:hover {
+    box-shadow: 0 rem(7) rem(9) rgba(23, 236, 255, 0.26); 
+  }
+
+  .orange-button:focus {
+    box-shadow: 0 rem(7) rem(9) rgba(6, 164, 178, 0.26);
+  }
 }
 
 @media (min-width: 960px) {
+  .section-fourteen {
+    padding: rem(86.5) rem(12) 0;
+  }
+
   .leftside {
     flex-basis: 45%;
   }
@@ -215,6 +249,10 @@
 }
 
 @media (min-width: 1200px) {
+  .section-fourteen {
+    padding: rem(102.94) rem(12) 0;
+  }
+
   .section-fourteen > .leftside > .main__title {
     font-size: rem(30);
     line-height: rem(37.5);
@@ -246,9 +284,21 @@
     box-shadow: 0 rem(9) rem(13) #f1d6c5;
     margin-left: rem(26.13);
   }
+
+  .orange-button:hover {
+    box-shadow: 0 rem(9) rem(13) rgba(23, 236, 255, 0.26); 
+  }
+
+  .orange-button:focus {
+    box-shadow: 0 rem(9) rem(13) rgba(6, 164, 178, 0.26);
+  }
 }
 
 @media (min-width: 1440px) {
+  .section-fourteen {
+    padding: rem(127.63) rem(12) 0;
+  }
+
   .leftside {
     flex-basis: 50%;
   }
@@ -284,5 +334,13 @@
     min-width: 84%;
     box-shadow: 0 rem(11) rem(16) #f1d6c5;
     margin-left: rem(31.87);
+  }
+
+  .orange-button:hover {
+    box-shadow: 0 rem(11) rem(16) rgba(23, 236, 255, 0.26); 
+  }
+
+  .orange-button:focus {
+    box-shadow: 0 rem(11) rem(16) rgba(6, 164, 178, 0.26);
   }
 }

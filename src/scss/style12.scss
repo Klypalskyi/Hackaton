@@ -1,0 +1,123 @@
+picture {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    // margin: auto;
+}
+
+.section-twelwe {
+    display: block;
+}
+
+.title-twelwe {
+    display: block;
+}
+.title-twelwe-box {
+    padding-top: rem(26);
+    padding-right: rem(76);
+    padding-left: rem(76);
+}
+
+.picc-twelwe {
+    display: block; 
+    margin-bottom: rem(27);
+}
+
+.text-twelwe {
+    display: block; 
+}
+
+.title-twelwe__two {
+    @include title;
+    font-size: $textSizeMobile;
+    line-height: rem(13);
+    padding-right: rem(87);
+    padding-left: rem(76);
+    margin-bottom: rem(10);
+    &_text {
+        padding-right: rem(82);
+        padding-left: rem(76);
+        font-size: $textSizeMobile;
+        line-height: rem(13);
+        font-family: "Acrom-regular", sans-serif;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 480px) {
+    .title-twelwe-box {
+        padding-top: rem(35);
+        padding-right: rem(115);
+        padding-left: rem(114);
+        letter-spacing: rem(0.3);
+    }
+    .after-title__text {
+        padding-right: rem(50);
+        padding-left: rem(25);   
+        line-height: rem(19.5);
+        margin-left: rem(127);
+        text-align: justify;
+        font-size: $textSizeSmart;
+    }
+    .picc-twelwe {
+        margin-bottom: rem(40);
+    }
+    .title-twelwe__two {
+        font-size: $textSizeSmart;
+        line-height: rem(19.5);
+        padding-right: rem(149);
+        padding-left: rem(132);
+        margin-bottom: rem(15); 
+        &_text {
+            padding-right: rem(134);
+            padding-left: rem(133);
+            font-size: $textSizeMobile;
+            line-height: rem(19.5);
+            text-align: justify;
+          }
+    }
+}
+@media (min-width: 768px) {
+.section-twelwe {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-left: rem(64);
+    padding-right: rem(74);
+    margin: 0;
+}
+.title-twelwe, .picc-twelwe, .text-twelwe {
+    flex-basis: 33%;
+}
+.title-twelwe-box {
+    padding-top: rem(43);
+    padding-left: 0;
+    padding-right: 0;
+    font-size: rem(27);
+    line-height: rem(33.65);
+    text-align: left;
+}
+.after-title__text {
+    padding-right: rem(0);
+    padding-left: rem(40);   
+    line-height: rem(13.46);
+    margin-left: rem(0);
+    text-align: left;
+    font-size: $textSizeMobile;
+}
+.picc-twelwe {
+    padding-top: rem(57);
+    margin-right: rem(18);
+}
+.title-twelwe__two {
+    padding-right: rem(0);
+    padding-left: rem(0);
+    padding-top: rem(57);
+    margin-bottom: rem(0); 
+    &_text {
+        padding-right: rem(0);
+        padding-left: rem(0);
+        padding-top: rem(17);
+            }
+}
+}

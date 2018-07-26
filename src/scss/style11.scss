@@ -23,7 +23,7 @@
 
 .title-11__text {
   padding-left: rem(15);
-  padding-right: rem(2);
+  padding-right: rem(0);
   font-family: "Acrom-regular";
   font-size: rem(9);
   line-height: rem(13);
@@ -103,7 +103,7 @@
     line-height: rem(19.5);
     padding-left: rem(28);
     padding-right: rem(5);
-    min-width: 278px;
+    min-width: rem(278);
   }
 
   .box-item-11 {
@@ -202,7 +202,7 @@
     min-width: rem(30);
     height: rem(5);
     top: rem(155);
-    left: rem(455);
+    left: rem(565);
   }
 
   .list-11-title {
@@ -307,8 +307,8 @@
 @media (min-width: 1200px) {
   .content-11 {
     padding-top: rem(63);
-    padding-left: rem(243);
-    padding-right: rem(242);
+    padding-left: rem(0);
+    padding-right: rem(0);
     max-height: rem(545);
   }
 
@@ -324,7 +324,7 @@
   .title-11__item {
     font-size: rem(30);
     line-height: rem(37.5);
-    padding-right: rem(0);
+    padding-right: rem(120);
     margin-bottom: rem(22);
   }
 
@@ -336,7 +336,7 @@
     font-size: rem(10);
     line-height: rem(15);
     padding-left: rem(51);
-    padding-right: rem(0);
+    padding-right: rem(140);
   }
 
   .title-11__text::before {
@@ -382,8 +382,8 @@
 @media (min-width: 1440px) {
   .content-11 {
     padding-top: rem(75);
-    padding-left: rem(292);
-    padding-right: rem(291);
+    padding-left: rem(0);
+    padding-right: rem(0);
     max-height: rem(550);
   }
 
@@ -414,7 +414,7 @@
     min-width: rem(30);
     height: rem(4);
     top: rem(198);
-    left: rem(830);
+    left: rem(525);
   }
 
   .list-11__item {

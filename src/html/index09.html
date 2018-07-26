@@ -3,7 +3,11 @@
         <div class="content">
             <div class="box-1">
                 <div class="box-item-1">
-                    <img src="img/foto1.jpg">
+                        <picture>
+                                <source srcset="/img/09-1440.jpg" media="(min-width: 480px) and (orientation: landscape)">
+                                <source srcset="/img/09-320.jpg" media="(min-width: 320px) and (orientation: landscape)">
+                                <img srcset="/img/09-320.jpg" alt="default image section12">
+                            </picture>
                 </div>
                 <div class="box-item-4">
                     <h1 class="section-title">[ Представляем пошаговый Видео-курс _ ]</h1>
@@ -47,7 +51,7 @@
             </div>
             <div class="box-3">
                 <div class="footer-text">
-                    <p class="section-text__item">Открой, как стать хорошо зарабатывающим специалистом.</p>
+                    <p class="orange">Открой, как стать хорошо зарабатывающим специалистом.</p>
                 </div>
                 <div class="footer-button">
                     <button class="button">Получить видео-курс</button>
