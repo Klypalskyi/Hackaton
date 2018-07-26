@@ -15,7 +15,7 @@
   color: #000;
   line-height: rem(13);
   margin-bottom: rem(17);
-  width: rem(284);
+  max-width: 96%;
 }
 
 .title-text-two--item {
@@ -49,7 +49,7 @@
 }
 
 .title-title {
-  width: rem(179);
+  max-width: 60%;
   margin: auto;
   font-family: "Acrom-bold", sans-serif;
   font-weight: 800;
@@ -68,14 +68,18 @@
 }
 
 .main-section-two--item > li {
-  display: flex;
+  padding-left: rem(24);
+  position: relative;
 }
 
 .main-section-two--item > li:before {
-  content: "\25A0";
-  margin-left: rem(13);
-  margin-right: rem(7);
-  margin-top: rem(-2);
+  content: "";
+  min-width: rem(5);
+  min-height: rem(5);
+  background: #000;
+  position: absolute;
+  top: rem(4);
+  left: rem(13);
 }
 
 .main-section-two--item > li:last-child > .section-two--item {

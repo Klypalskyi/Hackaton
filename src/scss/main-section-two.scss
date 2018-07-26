@@ -1,4 +1,7 @@
 /* ---------- BLOCK #3 (Section-two) ----------*/
+.section-two {
+  padding-top: rem(50);
+}
 
 .title-title__section-two {
   margin-bottom: rem(25);
@@ -27,16 +30,19 @@
 }
 
 .info-section-two--item {
-  display: flex;
+  position: relative;
+  padding-left: rem(26);
   margin-bottom: rem(10);
 }
 
 .info-section-two--item::before {
-  content: "\25A0";
-  color: $buttonBg;
-  margin-left: rem(13);
-  margin-right: rem(7);
-  margin-top: rem(1);
+  content: '';
+  min-width: rem(6);
+  min-height: rem(6);  
+  background: $buttonBg;
+  position: absolute;
+  top: rem(8.5);
+  left: rem(11);
 }
 
 .section-two-title {

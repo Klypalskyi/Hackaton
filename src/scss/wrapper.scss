@@ -5,9 +5,10 @@
 .wrapper-header::after {
   position: absolute;
   content: "goit";
-  @include leftside__title font-size: rem(80);
+  @include leftside__title;
+  font-size: rem(80);
   color: rgba(0, 0, 0, 0.2);
-  top: rem(164);
+  top: rem(155);
   left: 50%;
   margin-left: rem(-109.2815);
 }
