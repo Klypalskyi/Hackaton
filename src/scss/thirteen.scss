@@ -1,15 +1,15 @@
 @media (min-width: 320px) {
-  .section-thirteen,
-  .section-fourteen,
-  .section-fifteen,
-  .section-sixteen {
+  .section-thirteen {
     padding: rem(32) rem(12) 0;
+  }
+
+  .section-thirteen__header {
+    margin-bottom: rem(38.5);
   }
 
   .section-thirteen__image-box {
     margin: 0 auto;
     display: block;
-    margin-bottom: rem(30);
     position: relative;
     max-width: 54.68%;
   }
@@ -17,6 +17,7 @@
   .section-thirteen__image {
     z-index: 1;
     position: relative;
+    max-width: 100%;
   }
 
   .section-thirteen__gray-text {
@@ -114,6 +115,14 @@
 }
 
 @media (min-width: 480px) {
+  .section-thirteen {
+    padding: rem(45) rem(12) 0;
+  }
+
+  .section-thirteen__header {
+    margin-bottom: rem(57);
+  }
+
   .section-thirteen__image-box {
     max-width: 56.25%;
   }
@@ -136,10 +145,6 @@
 
   .title__text--orange {
     margin-bottom: rem(23);
-  }
-
-  .title__text {
-    margin-bottom: rem(58);
   }
 
   .left-box__text {
@@ -170,21 +175,22 @@
 }
 
 @media (min-width: 768px) {
-  .section-thirteen,
-  .section-fourteen,
-  .section-fifteen,
-  .section-sixteen {
-    padding: rem(92.56) rem(12) 0;
+  .section-thirteen {
+    padding: rem(88.66) rem(12) 0;
   }
 
-  .section-thirteen__header,
-  .flex-top {
+  .section-thirteen__header {
+    margin-bottom: rem(27.76);
+  }
+
+  .section-thirteen__header, {
     display: flex;
     justify-content: space-around;
   }
 
   .section-thirteen__image-box {
-    flex-basis: 32.86%;
+    flex-basis: 36.64%;
+    margin: 0;
   }
 
   .section-thirteen__gray-text {
@@ -193,7 +199,8 @@
   }
 
   .section-thirteen__title {
-    flex-basis: 48.5%;
+    max-width: 37.02%;
+    flex-basis: 50%;
   }
 
   .title__text--orange {
@@ -273,11 +280,12 @@
 }
 
 @media (min-width: 960px) {
-  .section-thirteen,
-  .section-fourteen,
-  .section-fifteen,
-  .section-sixteen {
-    padding: rem(116) rem(12) 0;
+  .section-thirteen {
+    padding: rem(109.5) rem(12) 0;
+  }
+
+  .section-thirteen__header {
+    margin-bottom: rem(33);
   }
 
   .section-thirteen__image-box {
@@ -290,6 +298,7 @@
   }
 
   .section-thirteen__title {
+    max-width: 100%;
     flex-basis: 45%;
   }
 
@@ -382,7 +391,7 @@
   }
 
   .section-thirteen__header {
-    margin-bottom: rem(6);
+    margin-bottom: rem(36);
   }
 
   .section-thirteen__gray-text {
