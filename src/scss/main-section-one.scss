@@ -4,9 +4,25 @@
   margin: auto;
 }
 
-.main-section-foto {
-  margin-bottom: rem(30);
+
+.foto-text-section-one {
+  position: relative;
 }
+
+.main-section-one-foto {
+  margin-bottom: rem(33);
+}
+
+.text-fon-section-one {
+  @include gray-vetical-text;
+  font-size: rem(65.11);
+  writing-mode: vertical-lr;
+  display: inline-block;
+  position: absolute;
+  top: rem(92.8);
+  left: rem(0); 
+}
+
 
 .title-text {
   font-family: "Acrom-extrabold", sans-serif;
@@ -16,6 +32,11 @@
   line-height: rem(13);
   margin-bottom: rem(17);
   max-width: 96%;
+}
+
+.main-section-title, .main-section-two {
+  position: relative;
+  z-index: 2;
 }
 
 .title-text-two--item {
@@ -34,7 +55,7 @@
 
 .title-text-two {
   display: flex;
-  margin-bottom: rem(14);
+  margin-bottom: rem(7);
   justify-content: center;
 }
 
@@ -128,11 +149,23 @@
 }
 
 @media (min-width: 480px) {
+  .section-one {
+  padding-top: rem(54);
+  }
+
+  .text-fon-section-one {
+    font-size: rem(97.66);
+    top: rem(136);
+  }
+
+  .main-section-one-foto {
+  margin-bottom: rem(44);
+}
+
   .title-text {
     font-size: rem(13.5);
     line-height: rem(19.5);
     margin-bottom: rem(25);
-    width: rem(432);
   }
 
   .title-text-two--item {
@@ -140,7 +173,8 @@
   }
 
   .title-text-two--size {
-    font-size: rem(9);
+    font-size: rem(13.5);
+    margin-bottom: rem(20);
   }
 
   .title-text-two::before {
@@ -153,7 +187,7 @@
   .title-title {
     width: rem(272);
     font-size: rem(20.53);
-    margin-bottom: rem(32);
+    margin-bottom: rem(44);
     line-height: rem(26);
   }
 
@@ -167,6 +201,17 @@
     line-height: rem(19);
     margin-bottom: rem(22);
     width: rem(384);
+  }
+
+  .main-section-two--item > li {
+    padding-left: rem(36);
+  }
+
+  .main-section-two--item > li:before {
+    min-width: rem(8);
+    min-height: rem(8);
+    top: rem(4);
+    left: rem(19);
   }
 
   .main-section-two--item > li:first-child > .section-two--item {
@@ -192,7 +237,6 @@
 
   .text-color {
     font-size: rem(13.5);
-    width: rem(295);
     line-height: rem(19.5);
   }
 }
