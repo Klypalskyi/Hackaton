@@ -7,17 +7,25 @@
   content: "goit";
   @include leftside__title font-size: rem(80);
   color: rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
   top: rem(160);
+=======
+  top: rem(164);
+>>>>>>> andrii
   left: 50%;
   margin-left: rem(-109.2815);
 }
 
 .wrapper-header__fon {
+<<<<<<< HEAD
   background-image: radial-gradient(
     circle at 161px 146px,
     #1a314a 1%,
     transparent 59%
   );
+=======
+  background-image: radial-gradient( circle at 161px 146px, #1a314a 1%, transparent 59%);
+>>>>>>> andrii
   padding-top: rem(10);
   padding-right: rem(12);
   padding-left: rem(12);
@@ -41,11 +49,17 @@
   }
 
   .wrapper-header__fon {
+<<<<<<< HEAD
     background-image: radial-gradient(
       circle at 244px 209px,
       #1a314a 1%,
       transparent 68%
     );
+=======
+    background-image: radial-gradient(circle at 244px 209px, #1a314a 1%, transparent 68%);
+    padding-top: rem(15);
+    padding-bottom: rem(39);
+>>>>>>> andrii
   }
 }
 

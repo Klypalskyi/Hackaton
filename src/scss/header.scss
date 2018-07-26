@@ -9,22 +9,87 @@
   width: rem(44);
 }
 
+.menu-item {
+  position: relative;
+}
+
+.triangle {
+  display: none;
+  width: 0;
+  height: 0;
+  border-left: rem(5) solid transparent;
+  border-right: rem(5) solid transparent;
+  border-bottom: rem(5) solid rgba(0, 0, 0, 1);
+  position: absolute;
+  margin-top: rem(0);
+  left: rem(5);
+  top: rem(16);
+}
+
+.submenu-header {
+  display: none;
+  font-family: 'Acrom-regular', sans-serif;
+  position: absolute;
+  top: rem(21);
+  left: rem(-73);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 1);
+  z-index: 3;
+
+}
+
+.submenu-header-item>a {
+  color: #fff;
+}
+
+.submenu-header-item {
+  white-space: nowrap;
+  padding: rem(10) rem(15);
+}
+
 .nav-menu {
   width: rem(18);
   max-height: rem(10.5);
   fill: #fff;
 }
 
+<<<<<<< HEAD
 .menu:hover>.nav-menu {
   fill: #17ecff;
 }
 
+=======
+.menu-header:hover>.menu-item>.menu>.nav-menu {
+  fill: #17ecff;
+}
+
+.menu-header:hover>.menu-item>.triangle {
+  display: inline-block;
+}
+
+.menu-header:hover>.menu-item>.submenu-header {
+  display: inline-block;
+}
+
+.submenu-header-item:hover {
+  background-color: #fff;
+  transition: background ease .4s;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,1);
+  margin: auto;
+}
+
+.submenu-header-item:hover > a {
+  color: #000;
+}
+
+>>>>>>> andrii
 .header {
-  padding-top: rem(15);
+  padding-top: rem(13);
 }
 
 .title {
-  margin-bottom: rem(104);
+  margin-bottom: rem(103);
 }
 
 .title-one {
@@ -33,7 +98,7 @@
   text-align: center;
   padding: 0 rem(65);
   line-height: rem(26);
-  margin-bottom: rem(20);
+  margin-bottom: rem(24);
 }
 
 .text {
@@ -138,6 +203,9 @@
     width: rem(18);
   }
 
+  .header {
+    padding-top: rem(20);
+  }
   .title {
     margin-bottom: rem(164);
   }
@@ -145,6 +213,7 @@
   .title-one {
     font-size: rem(30);
     line-height: rem(39);
+    margin-bottom: rem(39);
   }
 
   .text {
