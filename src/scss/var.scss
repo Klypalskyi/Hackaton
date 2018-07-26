@@ -33,7 +33,7 @@ $mainTitleDesktop: rem(36);
 /* Основной текс */
 @mixin text {
   font-family: "Acrom-regular", sans-serif;
-  font-size: rem(10.5);
+  font-size: rem(9.27);
   color: #3f4144;
 }
 
@@ -80,7 +80,7 @@ $text-orange: #ff6b08;
 
 @mixin orange {
   color: $text-orange;
-  font-family: 'Acrom-medium', sans-serif; 
+  font-family: 'Acrom-medium', sans-serif;
 }
 
 .orange {
