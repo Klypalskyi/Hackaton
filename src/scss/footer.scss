@@ -26,17 +26,17 @@
   &__adress,
   &__name {
     @include title17;
-    font-size: rem(3.6);
-    line-height: rem(4.7);
+    font-size: 3px;
+    line-height: 4px;
     padding-bottom: rem(6);
   }
 
   &__city,
   &__contact {
     @include Acrom-regular;
-    font-size: rem(3.6);
-    line-height: rem(12);
-    width: 60%;
+    font-size: 3px;
+    line-height: 5px;
+    // width: 60%;
   }
 
   &__facebook,
@@ -45,8 +45,8 @@
     text-decoration: none;
     color: $text-white;
     @include Acrom-bold;
-    font-size: rem(4);
-    line-height: rem(6);
+    font-size: 4px;
+    line-height: 6px;
     width: 100%;
   }
 
@@ -146,12 +146,23 @@
     font-size: rem(6.7);
   }
 }
-@media (min-width: 960px) {
+
+@media (min-width: 1200px) {
   .footer-ar {
-    width: 55%;
+    width: 80%;
   }
   
   .info {
-    width: 55%;
+    width: 80%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .footer-ar {
+    width: 60%;
+  }
+  
+  .info {
+    width: 60%;
   }
 }
