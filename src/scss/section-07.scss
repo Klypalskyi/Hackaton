@@ -14,21 +14,49 @@
   font-size: 0.65625rem;
   padding-top: rem(15);
   color: #3f4144;
+
+  &::before{
+    content: "";
+    display: block;
+    min-height: rem(1);
+    max-width: rem(13.5);
+    background: #000;
+    font-weight: 800;
+    position: relative;
+    right: 1.2rem;
+    top: 6px;
+  }
+
+}
+
+.section-07-web-developer-part{
+  max-width: 240px;
+  margin: auto;
 }
 
 .section-07-web-developer-part__title {
   font-family: Acrom-extrabold, sans-serif;
   padding-top: rem(22);
+
+  &-square{
+    list-style-type: square;
+    padding-left: 1rem;
+  }
 }
 
-.section-07-web-designer-photo {
+.section-07-web-designer-photo-container {
   width: rem(300);
   height: rem(130);
+}
+
+.section-07-web-designer-photo{
+  margin: 0;
 }
 
 .section-07-content-title,
 .section-07__title-web-part-title {
   @include title;
+  font-size: $mainTitleMobile ;
 }
 
 .section-07-web-part-laptop-container,
@@ -39,30 +67,37 @@
 
 .section-07-container-content {
   position: relative;
+  padding-bottom: rem(10);
 }
 
 .section-07-content-title {
-  padding-left: 10%;
+  padding-left: 15%;
   width: 10rem;
 }
 
 .section-07-content-text {
   @include text;
-  font-family: "Acrom-Bold", sans-serif;
-  padding-top: rem(20);
+  width: rem(226);
+  font-size: $textSizeMobile;
+  color: $textColorBl;
+  font-weight: bold;
+  padding-top: rem(10);
   text-align: justify;
-  width: 14.25rem;
-  padding-left: 10%;
+  padding-left: 15%;
+  padding-bottom: rem(20);
 }
 
 .section-07-content-text::before {
-  color: #000;
-  content: "-";
-  font-size: 2rem;
-  padding-top: rem(14);
-  position: absolute;
-  left: 5%;
-  top: 13%;
+  content: "";
+  display: block;
+  min-height: rem(1);
+  max-width: rem(13.5);
+  background: #000;
+  font-weight: 800;
+  position: relative;
+  right: 1.2rem;
+  top: 6px;
+
 }
 
 .section-07-vaserman__title1,
@@ -76,7 +111,7 @@
 }
 
 .section-07-vaserman-container3-title {
-  padding-top: 1rem;
+  padding-top: rem(11);
 }
 
 .section-07-vaserman__title1 {
@@ -120,6 +155,8 @@
   font-weight: bold;
   margin-left: 2rem;
   margin-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .section-07-vaserman__text-normal,
@@ -127,6 +164,7 @@
   @include text;
   margin-left: 2rem;
   margin-right: 2rem;
+  padding-bottom: 1rem;
 }
 
 .section-07-web-designer-part__title1,
@@ -150,13 +188,16 @@
   position: relative;
 
   &::before {
-    color: #000;
-    content: "-";
-    font-size: 2rem;
-    padding-top: rem(15);
+    content: "";
+    display: block;
+    min-height: rem(1);
+    min-width: rem(13.5);
+    background: #000;
+    font-weight: 800;
     position: absolute;
-    right: 11.5rem;
-    bottom: 8.5rem;
+    right: 11.9375rem;
+    top: 0.2rem;
+
   }
 }
 
@@ -180,8 +221,8 @@
   }
 
   .section-07-content-title {
-    font-size: 2.25rem;
-    min-width: 15rem;
+    font-size: rem(26);
+    min-width: 10rem;
     margin: 0;
     padding-left: 0;
   }
@@ -194,20 +235,26 @@
     padding-top: 2rem;
   }
 
-  .section-06-picture {
+  .section-07-picture-container-think{
     width: rem(275);
     height: rem(175);
   }
 
   .section-07-content-text:before {
-    left: 12%;
-    top: 52%;
+    content: "";
+    display: block;
+    min-height: rem(1);
+    max-width: rem(13.5);
+    background: #000;
+    font-weight: 800;
+    position: relative;
+    right: 1.2rem;
+    top: 6px;
   }
 
   .section-07-vaserman {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 2rem;
   }
 
   .section-07-vaserman-container1 {
@@ -218,7 +265,6 @@
     .section-07-vaserman__text-normal,
     .section-07-web-part__text-normal {
       font-size: 8px;
-      padding-top: 1rem;
       width: rem(175);
     }
 
@@ -231,6 +277,7 @@
 
   .section-07-vaserman-container2 {
     order: 1;
+    margin-top: 2rem;
   }
 
   .section-07-vaserman__photo {
@@ -244,6 +291,10 @@
     bottom: 125px;
     position: relative;
     left: 368px;
+
+    &-title{
+      padding-top: 1rem;
+    }
   }
 
   .section-07-vaserman__text-container {
@@ -265,7 +316,7 @@
     margin-left: 0rem;
     width: auto;
     left: 330px;
-    bottom: 70px;
+    bottom: 100px;
 
     .section-07__title-web-part-title1 {
       width: 60px;
@@ -291,7 +342,6 @@
     .section-07-vaserman__text-normal,
     .section-07-web-part__text-normal {
       font-size: 8px;
-      padding-top: 1rem;
       width: rem(175);
     }
 
@@ -324,6 +374,8 @@
     .section-07-web-developer-part {
       width: 400px;
       order: 3;
+      margin-left: 3rem;
+      margin-right: 4rem;
     }
 
     .section-07-web-designer-photo {
@@ -350,7 +402,7 @@
 
     .section-07-web-designer-part__title1,
     .section-07-web-designer-part__title2 {
-      font-size: 36px;
+      font-size: 26px;
       width: 375px;
     }
   }
@@ -385,6 +437,8 @@
   .section-06-picture {
     width: rem(275);
     height: rem(175);
+    max-width: none;
+    margin-top: 0;
   }
 
   .section-07-content-text:before {
@@ -424,6 +478,8 @@
   .section-07-vaserman__photo {
     height: 225px;
     width: 275px;
+    max-width: none;
+    margin-top: 0;
   }
 
   .section-07-vaserman-container3 {
@@ -711,13 +767,28 @@
   }
 
   .section-07-content-text {
+    font-size: $textSizeDesktop;
     text-align: initial;
     width: rem(200);
   }
 
   .section-07-content-text:before {
-    left: 12%;
-    top: 52%;
+    content: "";
+    display: block;
+    min-height: 0.2rem;
+    min-width: 1.84375rem;
+    background: #000;
+    font-weight: 800;
+    position: absolute;
+    left: 4.5rem;
+    top: 8.5rem;
+
+  }
+
+  .section-07-picture-container-think{
+    display: flex;
+    width: rem(303);
+    height: rem(190);
   }
 
   .section-07-vaserman {
@@ -726,26 +797,27 @@
   }
 
   .section-07-vaserman-container1 {
-    width: 600px;
+    width: 48%;
     order: 2;
     display: flex;
   }
 
   .section-07-vaserman-container2 {
+    display: inline-block;
     order: 1;
+    height: rem(300);
+    width: rem(370);
+    background-color: #16ebfe;
   }
 
-  .section-07-vaserman__photo {
-    height: 300px;
-    width: 370px;
-  }
+
 
   .section-07-vaserman-container3 {
     width: 350px;
     order: 3;
     bottom: 125px;
     position: relative;
-    left: 368px;
+    left: 400px;
   }
 
   .section-07-vaserman__text-container {
@@ -756,6 +828,7 @@
   .section-07-vaserman-container1-title {
     margin-left: auto;
     padding-top: 1rem;
+    display: inline-block;
   }
 
   .section-07-vaserman__text-container {
@@ -769,7 +842,6 @@
 
   .section-07-vaserman-container3 {
     display: flex;
-    margin-left: 8rem;
 
     .section-07__title-web-part-title1 {
       width: 60px;
@@ -799,9 +871,18 @@
     flex-wrap: wrap;
 
     .section-07-web-part {
-      width: 373px;
-      margin-right: 200px;
+      width: rem(420);
+      height: rem(240);
       order: 1;
+    }
+
+    .section-07-web-part-laptop-container{
+      overflow: visible;
+    }
+
+    .section-07-web-part-laptop{
+      height: rem(285);
+      width: rem(420);
     }
 
     .section-07-web-designer-part {
@@ -810,16 +891,17 @@
 
     .section-07-web-designer-photo-container {
       order: 4;
+      width: rem(420);
+      height: rem(240);
     }
 
     .section-07-web-developer-part {
-      width: 400px;
       order: 3;
+      margin: auto auto auto 0;
     }
 
     .section-07-web-designer-photo {
-      margin-left: 11rem;
-      width: 415px;
+
     }
 
     .section-07-web-developer-part__text {
@@ -827,14 +909,26 @@
     }
 
     .section-07-web-designer-text {
+      @include text;
+      font-size: $textSizeDesktop;
+      color: $textColorBl;
+      font-weight: bold;
+
       width: 250px;
       margin-left: 3rem;
       margin-bottom: 4rem;
     }
 
     .section-07-web-designer-text:before {
-      right: 15.9rem;
-      bottom: 1.7rem;
+      content: "";
+      display: block;
+      min-height: rem(1);
+      max-width: rem(13.5);
+      background: #000;
+      font-weight: 800;
+      position: relative;
+      right: 1.2rem;
+      top: 6px;
     }
 
     .section-07-web-designer-part__title1,

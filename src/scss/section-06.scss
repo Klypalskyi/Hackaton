@@ -1,14 +1,12 @@
 .section-06 {
 
   background-color: #ffffff;
-
   padding: rem(40) rem(16) 0 rem(16);
-
   margin: auto;
 
   &__title, .content-title {
-    @include s-bracket;
-    font-size: rem(16);
+    @include title;
+    font-size: $mainTitleMobile;
   }
 
   .section-title__container {
@@ -29,19 +27,9 @@
 
   .content-text {
     @include text;
-    font-family: "Acrom-Bold", sans-serif;
     text-align: justify;
-    width: 14.25rem;
+    width: rem(228);
     padding-left: 10%;
-  }
-
-  .content-text::before {
-    color: #000;
-    content: "-";
-    font-size: 2rem;
-    position: absolute;
-    left: 5%;
-    top: 13%;
   }
 
 }
@@ -50,29 +38,35 @@
   @include text;
 }
 
+.section-06__subtitle{
+  @include text;
+  color: $textColorBl;
+  font-weight: bold;
+
+}
+
 .section-06__subtitle::before {
-  color: #000;
-  content: "-";
-  font-size: 2rem;
-  padding-top: rem(20);
+  content: "";
+  display: block;
+  min-height: rem(1);
+  min-width: rem(13.5);
+  background: #000;
+  font-weight: 800;
   position: absolute;
-  left: 15%;
-  top: 44%;
+  left: rem(15);
+  top: rem(57);
 }
 
 .section-06-happyman-container {
   display: none;
 }
 
-.section-06-list {
-  padding-left: 1.5rem;
+.section-06-list__section-06 {
+  padding-left: 15%;
   padding-right: 1.5rem;
   padding-top: rem(20);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 14rem;
-  margin: auto;
+  margin: 0;
   list-style-type: square;
 }
 
@@ -84,7 +78,6 @@
 .section-06__subtitle {
   @include text;
   font-size: $textSizeMobile;
-  font-family: "Acrom-Bold", sans-serif;
   padding-top: rem(20);
   text-align: justify;
   width: 10rem;
@@ -96,6 +89,13 @@
   font-size: $textSizeMobile;
   text-transform: uppercase;
   font-weight: bold;
+  white-space: nowrap;
+
+  &__wrap{
+    white-space: normal;
+    width: 200px;
+  }
+
 }
 
 .section-06-picture {
@@ -226,12 +226,28 @@
 
 @media (min-width: 768px) and (max-width: 959px) {
   .section-06__subtitle {
-    width: 18rem;
     padding-top: rem(24);
+    margin-left: rem(80);
+
+    &::before{
+      content: "";
+      display: block;
+      min-height: 0.2rem;
+      width: 1.3rem;
+      background: #000;
+      font-weight: 800;
+      position: relative;
+      top: 0.4rem;
+      left: -2rem;
+    }
   }
 
+
   .section-06__title {
-    min-width: 24rem;
+    font-size: 1.25rem;
+    width: 19rem;
+    margin: 0;
+    padding-left: 5rem;
   }
 
   .normal-text {
@@ -241,6 +257,10 @@
 
   .section-06-list {
     padding-top: rem(40);
+  }
+
+  .section-06-list__section-06{
+    margin-left: 3rem;
   }
 
   .section-06-happyman-container {
@@ -258,6 +278,7 @@
     display: flex;
     max-width: rem(1000);
     margin: auto;
+    justify-content: center;
   }
 
 }
@@ -344,8 +365,9 @@
   }
 
   .section-06-happyman-img {
-    height: 420px;
-    padding-top: 3rem;
+    height: 560px;
+    padding-top: 0;
+    margin: 0;
   }
 
   .section-06-titlelist {
@@ -354,7 +376,7 @@
 
   .section-06__title {
     font-size: $mainTitleDesktop;
-    width: 25rem;
+    width: 30rem;
     margin: 0;
     padding-left: 5rem;
   }
@@ -372,6 +394,11 @@
   .section-06-list {
     width: 16rem;
     align-items: baseline;
+
+    &__section-06{
+      width: 25rem;
+      padding-left: 20%;
+    }
   }
 
   .section-06__subtitle {
@@ -381,12 +408,16 @@
   }
 
   .section-06__subtitle:before {
-    color: #000;
-    content: "-";
-    font-size: 4rem;
+    content: "";
+    display: block;
+    min-height: 0.2rem;
+    min-width: 1.84375rem;
+    background: #000;
+    font-weight: 800;
     position: absolute;
-    left: 21%;
-    top: 56%;
+    left: 5.5rem;
+    top: 6.9rem;
+
   }
 }
 
