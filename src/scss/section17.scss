@@ -8,7 +8,6 @@
 
 .section17-price {
   width: 100%;
- 
 }
 
 .section17-price-containet {
@@ -18,10 +17,11 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 0 auto;
+  margin: rem(80) auto 0;
+  box-shadow: 0 0.25rem 0.3125rem #d0caeb;
 
   &__div {
-    width: 43%;
+    width: 48%;
     font-size: rem(8.5);
     padding-bottom: rem(10);
     @include Acrom-medium;
@@ -31,7 +31,6 @@
 
 .sectin17-price-containet__div--price399 {
   font-size: rem(18);
- 
 }
 
 .section17-span {
@@ -53,14 +52,13 @@
 .chirt::before {
   content: "";
   display: inline-block;
-  width: rem(25);
+  width: rem(20);
   height: 3px;
   background-color: #244a6b;
   position: absolute;
   top: rem(4);
-  left: rem(-7);
+  left: rem(-4);
 }
-
 
 .section17-warning {
   margin: rem(30) auto 0;
@@ -69,8 +67,9 @@
   &__caption {
     @include s-bracket;
     font-size: rem(9.5);
-    line-height: rem(12);
+    // line-height: rem(12);
     padding-bottom: rem(10);
+    letter-spacing: 0;
   }
 
   &__description {
@@ -79,37 +78,29 @@
     line-height: rem(12);
     width: 80%;
     color: $text-series;
+    padding-bottom: rem(15);
   }
+}
 
-  &__stock {
-    @include Acrom-medium;
-    color: $orang;
-    font-size: rem(9.5);
-    line-height: rem(14.37);
-    padding-top: rem(15);
-    position: relative;
-  }
+.section17-warning > .orange17 {
+  max-width: 100%;
+  padding-left: 0;
+}
+
+.section17-warning > .orange17::before {
+  content: "";
+  left: -19px;
+  top: 10px;
 }
 
 .section17-warning__title {
   position: absolute;
-  top: -11%;
+  top: -7%;
   left: 50%;
   transform: translate(-50%, -1%);
-  @include title17;
-  font-size: rem(12);
-  padding-top: rem(20);
-}
-
-.section17-warning__stock::before {
-  content: "\2215";
-  display: inline;
-  font-family: Acrom-medium, sans-serif;
-  font-weight: 900;
-  color: #000;
-  position: absolute;
-  left: -0.625rem;
-  font-size: rem(12);
+  // @include title17;
+  // font-size: rem(12);
+  // padding-top: rem(20);
 }
 
 .section17-warning-b {
@@ -121,7 +112,7 @@
     height: rem(30);
     border: none;
     background-color: $orang;
-    margin-top: rem(25);
+    box-shadow: 0 0.25rem 0.3125rem #f1d6c5;
   }
 
   &__button--buy {
@@ -130,8 +121,11 @@
     font-weight: 900;
     color: #fff;
     font-size: rem(7);
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
   }
 }
+
 @media (min-width: 480px) {
   .section17-price {
     width: 90%;
@@ -216,6 +210,10 @@
     }
   }
 
+  .section17-warning-b__button {
+    box-shadow: 0 0.5625rem 0.8125rem #f1d6c5;
+  }
+
   .section17-price-containet__div {
     font-size: rem(8.9);
     line-height: rem(13.46);
@@ -233,6 +231,7 @@
 
   .section17-price-containet {
     @include box768;
+    box-shadow: 0 0.6395rem 0.8925rem #d0caeb;
   }
 
   .section17-warning__stock:before {
@@ -240,11 +239,27 @@
     left: rem(-13);
     font-size: rem(21);
   }
+
+  .chirt {
+    padding-left: 36px;
+  }
+
+  .chirt::before {
+    width: rem(23);
+    height: 1.5px;
+    top: rem(4);
+    left: rem(-1);
+  }
 }
 
 @media (min-width: 960px) {
-  .section17 {
-    width: 90%;
+  .section17-warning {
+    width: 25%;
+  }
+
+  .section17-warning > .orange17::before {
+    content: "";
+    left: -28px;
   }
 
   .section17-price-containet {
@@ -254,11 +269,20 @@
 
 @media (min-width: 1200px) {
   .section17 {
-    width: 60%;
+    width: 85%;
+  }
+
+  .section17-warning {
+    width: 27%;
   }
 
   .section17-price-containet {
     @include box1200;
+    box-shadow: 0 0.7739rem 0.9999rem #d0caeb;
+  }
+
+  .section17-warning-b__button {
+    box-shadow: 0 0.725rem 0.9925rem #f1d6c5;
   }
 
   .section17-warning {
@@ -292,5 +316,39 @@
 @media (min-width: 1200px) {
   .section17-price-containet {
     @include box960;
+  }
+}
+
+@media (min-width: 1400px) {
+  .section17 {
+    width: 64%;
+  }
+
+  .section17-warning {
+    &__title {
+      font-size: rem(36);
+      line-height: rem(37);
+    }
+
+    &__caption,
+    &__stock {
+      font-size: rem(16);
+      line-height: rem(13);
+    }
+
+    &__description {
+      font-size: rem(14);
+      line-height: rem(13);
+    }
+  }
+
+  .section17-price-containet__div {
+    font-size: rem(13);
+    line-height: rem(13.46);
+  }
+
+  .sectin17-price-containet__div--price399 {
+    font-size: rem(25);
+    line-height: rem(21);
   }
 }

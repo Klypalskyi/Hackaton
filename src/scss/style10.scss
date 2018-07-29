@@ -51,7 +51,7 @@
   height: rem(3);
   background-color: black;
   position: absolute;
-  top: rem(355);
+  top: rem(362);
   left: rem(55);
 }
 
@@ -208,7 +208,7 @@
   }
 
   .img_text::before {
-    top: rem(530);
+    top: rem(540);
     left: rem(90);
   }
 
@@ -359,7 +359,7 @@
   }
 
   .img_text::before {
-    top: rem(232);
+    top: rem(250);
     left: rem(65);
     min-width: rem(31);
     height: rem(4);
@@ -786,7 +786,7 @@
 
   .picc {
     top: rem(183);
-    right: rem(291);
+    right: rem(50);
     max-width: rem(462);
   }
   
@@ -802,8 +802,8 @@
   }
 
   .img_text::before {
-    top: rem(315);
-    left: rem(291);
+    top: rem(340);
+    left: rem(0);
     min-width: rem(34);
     height: rem(4);
   }

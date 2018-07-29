@@ -113,23 +113,6 @@
   margin-bottom: rem(24);
 }
 
-.section-text__item {
-  color: #ff6b08;
-  font-family: "Acrom-medium";
-  font-size: rem(9);
-  line-height: rem(11);
-}
-
-.section-text__item::before {
-  content: "\2215";
-  color: black;
-  position: absolute;
-  font-family: "Acrom-extrabold";
-  font-size: rem(16);
-  top: rem(780);
-  left: rem(35);
-}
-
 .footer-button {
   display: block;
   padding-left: rem(39);
@@ -291,8 +274,8 @@
     color: black;
     position: absolute;
     font-size: rem(40);
-    top: rem(190);
-    left: rem(410);
+    top: rem(265);
+    left: rem(480);
   }
 
   .box-2 {
@@ -525,8 +508,8 @@
 @media (min-width: 1200px) {
   .content {
     padding-top: rem(37);
-    padding-left: rem(243);
-    padding-right: rem(243);
+    padding-left: rem(0);
+    padding-right: rem(0);
   }
 
   .box-item-1 {
@@ -582,7 +565,7 @@
   .choose-list li {
     padding: 0;
     margin-bottom: rem(30);
-    max-width: rem(128);
+    max-width: rem(155);
   }
 
   .choose-list li:nth-child(n + 4) {
@@ -649,8 +632,8 @@
 @media (min-width: 1440px) {
   .content {
     padding-top: rem(45);
-    padding-left: rem(291);
-    padding-right: rem(291);
+    padding-left: rem(0);
+    padding-right: rem(0);
   }
 
   .box-item-1 {
@@ -683,8 +666,8 @@
     color: black;
     position: absolute;
     font-size: rem(50);
-    top: rem(250);
-    left: rem(755);
+    top: rem(270);
+    left: rem(475);
   }
 
   .box-2 {
