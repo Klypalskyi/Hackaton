@@ -1,6 +1,5 @@
 .section-05 {
   padding: rem(36) rem(62) 0 rem(60);
-  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,19 +19,21 @@
     margin-right: rem(16);
     font-family: Acrom-extrabold, sans-serif;
     font-size: rem(2.6);
+    padding-left: 0.6rem;
 
     li button{
       padding: 0;
       border: none;
       background: none;
-      margin-right: rem(4);
+      padding-right: 0.2rem;
+      padding-top: 0.2rem;
       font-size: rem(2.6);
       outline: none!important;
     }
 
 
     .slick-active button{
-      font-size: rem(4);
+      font-size: rem(8);
       text-decoration: line-through;
     }
   }
@@ -52,6 +53,7 @@
   color: $textColorBl;
   width: rem(180);
   font-weight: bold;
+  white-space: normal
 }
 
 .section-05__text::before {
@@ -72,10 +74,10 @@
 
 .section-05__review-part {
   width: rem(185);
-  margin-top: rem(38);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 2rem;
 
 }
 
@@ -88,7 +90,6 @@
 }
 
 .review-information {
-  margin-right: rem(14);
   display: flex;
   flex-wrap: wrap;
 }
@@ -152,7 +153,9 @@
 .section-05--bottom-element{
   display: flex;
   justify-content: space-between;
+  /*
   align-items: flex-end;
+  */
 }
 
 
@@ -207,14 +210,12 @@
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
   }
 
   .section-title-part {
-    width: 26%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 15%;
   }
 
   .section-05__title{
@@ -275,7 +276,6 @@
 
   .section-05__review-part{
     width: 400px;
-    margin: auto;
   }
 
   .review{
@@ -387,7 +387,6 @@
 
   .section-05__review-part{
     width: 400px;
-    margin: auto;
   }
 
   .review{
@@ -402,9 +401,8 @@
 
 @media (min-width: 1200px)  {
   .section-05 {
-    padding: 0;
+    padding-top: 150px;
     width: rem(768);
-    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -413,8 +411,6 @@
 
   .section-title-part {
     width: 26%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .section-05__title{
@@ -423,7 +419,6 @@
 
   .section-05__text{
     width: 6.25rem;
-    margin-left: 3rem;
     padding-top: rem(40);
   }
 
@@ -470,7 +465,6 @@
 
   .section-05__review-part{
     width: 400px;
-    margin: auto;
   }
 
   .review{
@@ -485,42 +479,53 @@
 
 @media (min-width: 1440px) {
   .section-05 {
-    padding: 0;
+    padding: rem(150) rem(12) 0 0.7rem;
     width: rem(860);
-    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+
+    .slick-dots{
+      padding-top: 1rem;
+      padding-left: 1.2rem;
+    }
   }
 
   .section-title-part {
-    width: 26%;
+    width: 27%;
   }
 
   .section-05__title{
-    font-size: 1.75rem;
+    @include title;
+    @include s-bracket;
+    font-size: $mainTitleDesktop;
+    letter-spacing: unset;
+    line-height: 2.82rem;
+    width: unset;
+    padding-bottom: 0;
+
   }
 
   .section-05__text{
-    width: 6.25rem;
-    margin-left: 3rem
+    width: 13.25rem;
+    padding-left: 4rem;
+    padding-top: 2.4rem;
+    line-height: 1.15rem;
   }
 
   .section-05__text::before{
     content: "";
     display: block;
-    min-height: 0.2rem;
-    width: 1.3rem;
+    min-height: rem(4);
+    max-width: rem(36);
     background: #000;
     font-weight: 800;
     position: relative;
-    top: 0.4rem;
+    left: rem(-61);
+    top: 7px;
   }
 
-  .section-05__title {
-    @include title;
-  }
 
   .section-05__text {
     @include text;
@@ -528,11 +533,12 @@
   }
 
   .section-05__review-part {
-    width: 70%;
-    margin-top: rem(60);
+    width: 34.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 2.1rem;
+    padding-left: 2rem;
   }
 
   .review-part__review {
@@ -544,19 +550,30 @@
   }
 
   .review-information {
-    margin-right: rem(32);
     padding-top: rem(10);
+    padding-left: .8rem;
     height: 210px;
+  }
+
+  .name-surname{
+    text-transform: uppercase;
+    padding-top: 2.3rem;
+    line-height: 1.2rem;
   }
 
   .review, .name-surname {
     @include text;
+    font-size: .7rem;
   }
 
   .wheel {
     display: flex;
     list-style-type: none;
     margin-right: rem(136);
+
+    &__arrows-container{
+      padding-top: .3rem;
+    }
 
     &__item {
       margin-right: rem(16);
@@ -574,6 +591,7 @@
 
   .section-05--bottom-element {
     display: flex;
+    width: 33.8rem;
   }
 
   .button-left::before {
@@ -582,8 +600,9 @@
     font-size: rem(30);
     text-align: center;
     padding: rem(10);
-    bottom: 0;
+    bottom: 14px;
     left: 0;
+    padding-bottom: 1rem;
   }
 
   .button-right::after {
@@ -592,8 +611,9 @@
     font-size: rem(30);
     padding: rem(10);
     text-align: center;
-    bottom: 0;
+    bottom: 14px;
     right: 0;
+    padding-bottom: 1rem;
   }
 
   .button-left, .button-right {
@@ -605,12 +625,14 @@
   }
 
   .section-05 .slick-dots li button{
-    font-size: rem(16);
+    font-size: .6rem;
+    padding-left: 0.7rem;
   }
 
   .section-05 .slick-dots .slick-active button{
-    font-size: rem(20);
+    font-size: rem(18);
   }
+
 
   .review-photo{
     width: rem(105);
@@ -625,6 +647,9 @@
     overflow-y: auto;
     font-size: rem(11);
     line-height: rem(18);
+    padding-top: .5rem;
+    width: 388px;
+    padding-right: 3rem;
   }
 
   .review-container{
@@ -634,22 +659,20 @@
   .review-container {
     &::-webkit-scrollbar-track
     {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-      border-radius: 10px;
-      background-color: #F5F5F5;
+      background-color: white;
     }
 
     &::-webkit-scrollbar
     {
-      width: 4px;
-      background-color: #F5F5F5;
+      width: 5px;
+      background-color: #070707;
     }
 
     &::-webkit-scrollbar-thumb
     {
       border-radius: 4px;
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-      background-color: #797977;
+      background-color: #070707;
     }
   }
 
