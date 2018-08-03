@@ -326,80 +326,162 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-  }
 
-  .section-title-part {
-    width: 26%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .section-title-part {
+      width: 26%;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-  .section-05__title{
-    font-size: 1.75rem;
-  }
+    .section-05__title {
+      font-size: $mainTitleNotebook;
+      width: 11rem;
+    }
 
-  .section-05__text{
-    width: 6.25rem;
-    margin-left: 3rem;
-    padding-top: rem(40);
-  }
+    .section-05__text {
+      width: 8.25rem;
+      margin-left: 3rem;
+      padding-top: rem(40);
+      font-size: $textSizeDesktop;
+    }
 
-  .section-05__text::before{
-    right: 7.5rem;
-    top: 10rem;
-  }
+    .section-05__text::before {
+      content: "";
+      display: block;
+      min-height: 0.2rem;
+      min-width: 1.84375rem;
+      background: #000;
+      font-weight: 800;
+      position: absolute;
+      left: 0.5rem;
+      top: 13rem;
+    }
 
-  .button-left::before {
-    content: "\2039";
-    color: #ffffff;
-    font-size: rem(30);
-    text-align: center;
-    padding: rem(10);
-    bottom: rem(0);
-    left: 0;
+    .button-left::before {
+      content: "\2039";
+      color: #ffffff;
+      font-size: rem(30);
+      text-align: center;
+      padding: rem(10);
+      bottom: rem(0);
+      left: 0;
 
-  }
+    }
 
-  .button-right::after {
-    content: "\203a";
-    color: #ffffff;
-    font-size: rem(30);
-    padding: rem(10);
-    text-align: center;
-    bottom: rem(0);
-    right: 0;
-  }
+    .button-right::after {
+      content: "\203a";
+      color: #ffffff;
+      font-size: rem(30);
+      padding: rem(10);
+      text-align: center;
+      bottom: rem(0);
+      right: 0;
+    }
 
-  .button-left, .button-right {
-    display: inline-block;
-    height: rem(27);
-    width: rem(27);
-    background-color: #000000;
-    line-height: rem(13);
-  }
+    .button-left, .button-right {
+      display: inline-block;
+      height: rem(27);
+      width: rem(27);
+      background-color: #000000;
+      line-height: rem(13);
+    }
 
-  .review-photo{
-    width: rem(80);
-    height: rem(80);
-    max-width: none;
-    margin-top: 0;
-  }
+    .review-photo {
+      width: rem(80);
+      height: rem(80);
+      max-width: none;
+      margin-top: 0;
+    }
 
-  .section-05__review-part{
-    width: 400px;
-  }
+    .review-photo-container{
+      height: 0px;
+    }
 
-  .review{
-    max-height: 340px;
-    overflow-y: auto;
-    font-size: rem(11);
-    line-height: rem(18);
-    padding-top: rem(10);
+    .section-05__review-part {
+      width: rem(530);
+      padding: 0;
+    }
+
+    .review-part__review {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: auto;
+      box-shadow: none;
+    }
+
+    .review-information {
+      padding-top: rem(10);
+      padding-left: .8rem;
+      height: 210px;
+    }
+
+    .name-surname {
+      text-transform: uppercase;
+      padding-top: 2.3rem;
+      line-height: 1.2rem;
+    }
+
+    .review, .name-surname {
+      @include text;
+      font-size: rem(10);
+      padding-top: .5rem;
+    }
+
+    .review {
+      max-height: none;
+      overflow-y: auto;
+      font-size: rem(11);
+      line-height: rem(18);
+      padding-top: .5rem;
+      width: 388px;
+      padding-right: 3rem;
+    }
+
+    .review-container {
+      max-height: 345px;
+      overflow-y: scroll;
+    }
+
+    .review-container {
+      &::-webkit-scrollbar-track
+      {
+        background-color: white;
+      }
+
+      &::-webkit-scrollbar
+      {
+        width: 5px;
+        background-color: #070707;
+      }
+
+      &::-webkit-scrollbar-thumb
+      {
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #070707;
+      }
+    }
+
+    .section-05__slick-container {
+      height: 375px;
+      overflow-y: hidden;
+    }
+
+    .slick-dots li button{
+      font-size: .6rem;
+      padding-left: 0.7rem;
+    }
+
+    .slick-dots .slick-active button{
+      font-size: rem(18);
+    }
+
   }
 }
 
 
-@media (min-width: 1200px)  {
+@media (min-width: 1200px) {
   .section-05 {
     padding-top: 150px;
     width: rem(768);
@@ -407,75 +489,146 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-  }
 
-  .section-title-part {
-    width: 26%;
-  }
+    .section-title-part {
+      width: initial;
+    }
 
-  .section-05__title{
-    font-size: 1.75rem;
-  }
+    .section-05__title {
+      font-size: $mainTitleNotebook;
+      width: 11rem;
+    }
 
-  .section-05__text{
-    width: 6.25rem;
-    padding-top: rem(40);
-  }
+    .section-05__text {
+      width: 11rem;
+      padding-top: rem(40);
+      font-size: rem(10);
+      padding-left: 4rem;
+    }
 
-  .section-05__text::before{
-    right: 7.5rem;
-    top: 10rem;
-  }
+    .section-05__text::before {
+      content: "";
+      display: block;
+      min-height: rem(4);
+      max-width: rem(36);
+      background: #000;
+      font-weight: 800;
+      position: relative;
+      left: rem(-61);
+      top: 7px;
+    }
 
-  .button-left::before {
-    content: "\2039";
-    color: #ffffff;
-    font-size: rem(30);
-    text-align: center;
-    padding: rem(10);
-    bottom: rem(0);
-    left: 0;
+    .button-left::before {
+      content: "\2039";
+      color: #ffffff;
+      font-size: rem(30);
+      text-align: center;
+      padding: rem(10);
+      bottom: rem(0);
+      left: 0;
 
-  }
+    }
 
-  .button-right::after {
-    content: "\203a";
-    color: #ffffff;
-    font-size: rem(30);
-    padding: rem(10);
-    text-align: center;
-    bottom: rem(0);
-    right: 0;
-  }
+    .button-right::after {
+      content: "\203a";
+      color: #ffffff;
+      font-size: rem(30);
+      padding: rem(10);
+      text-align: center;
+      bottom: rem(0);
+      right: 0;
+    }
 
-  .button-left, .button-right {
-    display: inline-block;
-    height: rem(27);
-    width: rem(27);
-    background-color: #000000;
-    line-height: rem(13);
-  }
+    .button-left, .button-right {
+      display: inline-block;
+      height: rem(27);
+      width: rem(27);
+      background-color: #000000;
+      line-height: rem(13);
+    }
 
-  .review-photo{
-    width: rem(80);
-    height: rem(80);
-    max-width: none;
-    margin-top: 0;
-  }
+    .slick-dots li button{
+      font-size: .6rem;
+      padding-left: 0.7rem;
+    }
 
-  .section-05__review-part{
-    width: 400px;
-  }
+    .slick-dots .slick-active button{
+      font-size: rem(18);
+    }
 
-  .review{
-    max-height: 340px;
-    overflow-y: auto;
-    font-size: rem(11);
-    line-height: rem(18);
-    padding-top: rem(10);
+    .review-photo {
+      width: rem(80);
+      height: rem(80);
+      max-width: none;
+      margin-top: 0;
+    }
+
+    .section-05__review-part {
+      width: 34.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-top: 2.1rem;
+      padding-left: 2rem;
+    }
+
+    .review {
+      max-height: 340px;
+      overflow-y: initial;
+      font-size: rem(11);
+      line-height: rem(18);
+      padding-top: rem(10);
+    }
+
+    .review-part__review {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: auto;
+      box-shadow: none;
+    }
+
+    .review-information {
+      padding-top: rem(10);
+      padding-left: .8rem;
+      height: 210px;
+      padding-right: 1rem;
+    }
+
+    .name-surname {
+      text-transform: uppercase;
+      line-height: 1.2rem;
+      font-size: 0.5rem;
+    }
+
+    .review-container {
+      max-height: 345px;
+      overflow-y: scroll;
+    }
+    .review-container {
+      &::-webkit-scrollbar-track {
+        background-color: white;
+      }
+
+      &::-webkit-scrollbar {
+        width: 5px;
+        background-color: #070707;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+        background-color: #070707;
+      }
+    }
+
+    .review, .name-surname {
+      @include text;
+      font-size: .7rem;
+    }
+
   }
 }
-
 
 @media (min-width: 1440px) {
   .section-05 {
