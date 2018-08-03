@@ -428,8 +428,8 @@
 
   .section-07-content-text {
     text-align: initial;
-    width: rem(160);
-    font-size: 9px;
+    width: 13rem;
+    font-size: 11px;
     font-family: "Acrom-medium", sans-serif;
     padding-top: 2rem;
   }
@@ -442,8 +442,15 @@
   }
 
   .section-07-content-text:before {
-    left: 12%;
-    top: 52%;
+    content: "";
+    display: block;
+    min-height: 0.2rem;
+    min-width: 1.84375rem;
+    background: #000;
+    font-weight: 800;
+    position: absolute;
+    left: 4.5rem;
+    top: 10rem;
   }
 
   .section-07-vaserman {
@@ -457,22 +464,39 @@
     order: 2;
     display: flex;
 
+    .section-07-vaserman-container1-title{
+      margin-left: 0;
+      padding-left: 3.5rem;
+    }
+
+    .section-07-vaserman__text-container{
+      padding-left: 1.5rem;
+    }
+
     .section-07-vaserman__text-normal,
     .section-07-web-part__text-normal {
-      font-size: 8px;
-      padding-top: 1rem;
+      font-size: 10px;
       width: rem(175);
     }
 
     .section-07-vaserman__text-bold,
     .section-07-web-part__text-bold {
-      font-size: 9px;
+      font-size: 11px;
       width: rem(175);
     }
   }
 
+  .section-07-vaserman__title1{
+   margin: 0;
+  }
+
+  .section-07-vaserman__title2{
+    margin: 0;
+  }
+
   .section-07-vaserman-container2 {
     order: 1;
+    padding-top: 3rem;
   }
 
   .section-07-vaserman__photo {
@@ -488,6 +512,10 @@
     bottom: 125px;
     position: relative;
     left: 368px;
+  }
+
+  .section-07-vaserman-container3-title{
+    padding-top: 1rem;
   }
 
   .section-07-vaserman__text-container {
@@ -508,20 +536,23 @@
     display: flex;
     margin-left: 0rem;
     width: auto;
-    left: 330px;
-    bottom: 70px;
+    left: 300px;
+    bottom: 95px;
 
     .section-07__title-web-part-title1 {
-      width: 60px;
+      width: 75px;
+      font-size: 10px;
     }
 
     .section-07__title-web-part-title2 {
-      width: 70px;
+      width: 86px;
+      font-size: 10px;
     }
 
     .section-07__title-web-part-title3 {
-      width: 110px;
+      width: 135px;
       margin-right: 5px;
+      font-size: 10px;
     }
 
     .section-07-web-part__text-bold {
@@ -534,15 +565,14 @@
 
     .section-07-vaserman__text-normal,
     .section-07-web-part__text-normal {
-      font-size: 8px;
-      padding-top: 1rem;
-      width: rem(175);
+      font-size: 10px;
+      width: 13.9375rem;
     }
 
     .section-07-vaserman__text-bold,
     .section-07-web-part__text-bold {
       font-size: 9px;
-      width: rem(175);
+      width: 13.9375rem;
     }
   }
 
@@ -552,13 +582,19 @@
     flex-wrap: wrap;
 
     .section-07-web-part {
-      width: 320px;
+      width: 50%;
       margin-right: 0px;
       order: 1;
     }
 
+    .section-07-web-part-laptop{
+      height: initial;
+      width: initial;
+    }
+
     .section-07-web-designer-part {
       order: 2;
+      width: 50%;
     }
 
     .section-07-web-designer-photo-container {
@@ -566,8 +602,14 @@
     }
 
     .section-07-web-developer-part {
-      width: 400px;
+      width: 50%;
+      max-width: 50%;
+      margin: 0;
       order: 3;
+    }
+
+    .section-07-web-designer-photo-container{
+      width: 50%;
     }
 
     .section-07-web-designer-photo {
@@ -577,7 +619,12 @@
     }
 
     .section-07-web-developer-part__text {
-      width: 270px;
+      width: 330px;
+      padding-left: 3rem;
+    }
+
+    .section-07-web-developer-part__title-square{
+      padding-left: 3rem;
     }
 
     .section-07-web-designer-text {
@@ -620,17 +667,39 @@
 
   .section-07-content-text {
     text-align: initial;
-    width: rem(200);
+    width: 16.5rem;
+    font-size: $textSizeNotebook;
+    padding-top: 2rem;
+    line-height: 0.9rem;
   }
 
   .section-07-content-text:before {
-    left: 12%;
-    top: 52%;
+    content: "";
+    display: block;
+    min-height: 0.2rem;
+    min-width: 1.84375rem;
+    background: #000;
+    font-weight: 800;
+    position: absolute;
+    left: 4.5rem;
+    top: 10rem;
   }
 
   .section-07-vaserman {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .section-07-vaserman__title1, .section-07-vaserman__title2{
+    font-size: $textSizeNotebook;
+  }
+
+  .section-07-vaserman__title1{
+    width: 4rem;
+  }
+
+  .section-07-vaserman__title2{
+    width: 6rem;
   }
 
   .section-07-vaserman-container1 {
@@ -641,6 +710,7 @@
 
   .section-07-vaserman-container2 {
     order: 1;
+    padding-top: 3rem;
   }
 
   .section-07-vaserman__photo {
@@ -651,7 +721,7 @@
   .section-07-vaserman-container3 {
     width: 400px;
     order: 3;
-    bottom: 70px;
+    bottom: 130px;
     position: relative;
     left: 260px;
   }
@@ -659,6 +729,7 @@
   .section-07-vaserman__text-container {
     width: 300px;
     margin-right: auto;
+    padding-left: 1rem;
   }
 
   .section-07-vaserman-container1-title {
@@ -668,31 +739,55 @@
 
   .section-07-web-part__text-container {
     width: auto;
+    padding-left: 1rem;
+  }
+
+  .section-07-vaserman__text-bold{
+    font-size: $textSizeNotebook;
+    width: 190px;
+  }
+
+  .section-07-vaserman__text-normal{
+    font-size: rem(9);
+    width: 190px;
+  }
+
+  .section-07-vaserman-container3-title{
+    padding-top: 1.1rem;
   }
 
   .section-07-vaserman-container3 {
     display: flex;
     margin-left: 8rem;
+    line-height: 1.1rem;
 
     .section-07__title-web-part-title1 {
-      width: 60px;
+      width: 70px;
+      font-size: $textSizeNotebook;
     }
 
     .section-07__title-web-part-title2 {
-      width: 70px;
+      width: 80px;
+      font-size: $textSizeNotebook;
     }
 
     .section-07__title-web-part-title3 {
-      width: 110px;
+      font-size: $textSizeNotebook;
+      width: 120px;
       margin-right: 5px;
     }
 
     .section-07-web-part__text-bold {
       margin: 0;
+      font-size: $textSizeNotebook;
+      width: 190px;
+
     }
 
     .section-07-web-part__text-normal {
       margin: 0;
+      font-size: $textSizeMobile;
+      width: 190px;
     }
   }
 
@@ -702,21 +797,22 @@
     flex-wrap: wrap;
 
     .section-07-web-part {
-      width: 373px;
-      margin-right: 200px;
+      width: 50%;
       order: 1;
     }
 
     .section-07-web-designer-part {
       order: 2;
+      width: 50%;
     }
 
     .section-07-web-designer-photo-container {
       order: 4;
+      width: 50%;
     }
 
     .section-07-web-developer-part {
-      width: 400px;
+      width: 50%;
       order: 3;
     }
 
@@ -727,17 +823,25 @@
 
     .section-07-web-developer-part__text {
       width: 270px;
+      padding-left: 1rem;
     }
 
     .section-07-web-designer-text {
       width: 250px;
-      margin-left: 3rem;
-      margin-bottom: 4rem;
+      padding-bottom: 4rem;
+      font-size: rem(9);
     }
 
     .section-07-web-designer-text:before {
-      right: 15.9rem;
-      bottom: 1.7rem;
+      content: "";
+      display: block;
+      min-height: rem(3);
+      max-width: rem(36);
+      background: #000;
+      font-weight: 800;
+      position: relative;
+      right: rem(61);
+      top: 6px;
     }
 
     .section-07-web-designer-part__title1,
