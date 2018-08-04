@@ -8,20 +8,20 @@
 }
 
 .footer-ar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: $text-white;
   margin: 0 auto;
   min-width: rem(244);
-  padding-right: rem(38);
-  padding-left: rem(38);
+  padding-right: rem(12);
+  padding-left: rem(12);
 }
 
 .footer-art {
   width: 18%;
   padding-top: rem(25);
-  margin-bottom: rem(25);
-  //   display: flex;
-  //   flex-wrap: wrap;
+  padding-bottom: rem(25);
 
   &__adress,
   &__name {
@@ -36,7 +36,6 @@
     @include Acrom-regular;
     font-size: 3px;
     line-height: 5px;
-    // width: 60%;
   }
 
   &__facebook,
@@ -64,12 +63,15 @@
 }
 
 .footer-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .footer-art:last-child {
-  width: 28%;
+  width: 25%;
   text-align: end;
 }
 // info
@@ -78,14 +80,19 @@
 }
 
 .info {
-  // min-width: 244px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: rem(5) rem(38) rem(5);
 }
 
 .info-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -147,11 +154,96 @@
   }
 }
 
+@media (min-width: 768px) {
+  .footer-art {
+    &__adress,
+    &__name {
+      font-size: rem(5);
+      line-height: rem(6);
+    }
+
+    &__city,
+    &__contact {
+      font-size: rem(5);
+      line-height: rem(8);
+    }
+
+    &__facebook,
+    &__instagram,
+    &__youtube {
+      font-size: rem(7);
+      line-height: rem(8);
+    }
+
+    &__button {
+      font-size: rem(3);
+      line-height: rem(15);
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .footer-art {
+    &__adress,
+    &__name {
+      font-size: rem(7);
+      line-height: rem(6);
+    }
+
+    &__city,
+    &__contact {
+      font-size: rem(7);
+      line-height: rem(8);
+    }
+
+    &__facebook,
+    &__instagram,
+    &__youtube {
+      font-size: rem(9);
+      line-height: rem(8);
+    }
+
+    &__button {
+      font-size: rem(5);
+      line-height: rem(15.6);
+    }
+  }
+}
 @media (min-width: 1200px) {
+  .footer-art:nth-child(2) {
+    width: 11%;
+  }
+
+  .footer-art {
+    &__adress,
+    &__name {
+      font-size: rem(9);
+      line-height: rem(6);
+    }
+
+    &__city,
+    &__contact {
+      font-size: rem(7);
+      line-height: rem(8);
+    }
+
+    &__facebook,
+    &__instagram,
+    &__youtube {
+      font-size: rem(9);
+      line-height: rem(8);
+    }
+
+    &__button {
+      font-size: rem(7);
+      line-height: rem(15.6);
+    }
+  }
+
   .footer-ar {
     width: 80%;
   }
-  
+
   .info {
     width: 80%;
   }
@@ -161,8 +253,34 @@
   .footer-ar {
     width: 60%;
   }
-  
+
   .info {
     width: 60%;
+  }
+
+  .footer-art {
+    &__adress,
+    &__name {
+      font-size: rem(10);
+      line-height: rem(11);
+    }
+
+    &__city,
+    &__contact {
+      font-size: rem(8);
+      line-height: rem(11);
+    }
+
+    &__facebook,
+    &__instagram,
+    &__youtube {
+      font-size: rem(10);
+      line-height: rem(12);
+    }
+
+    &__button {
+      font-size: rem(8);
+      line-height: rem(15);
+    }
   }
 }
