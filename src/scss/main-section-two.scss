@@ -36,9 +36,9 @@
 }
 
 .info-section-two--item::before {
-  content: '';
+  content: "";
   min-width: rem(6);
-  min-height: rem(6);  
+  min-height: rem(6);
   background: $buttonBg;
   position: absolute;
   top: rem(8.5);
@@ -135,10 +135,10 @@
 
   .info-section-two--item::before {
     min-width: rem(9.5);
-    min-height: rem(9.5);  
+    min-height: rem(9.5);
     top: rem(0);
     left: rem(0);
-}
+  }
 
   .info-section-two--item {
     margin-bottom: rem(31);
@@ -191,7 +191,7 @@
   .info-section-two > li:last-child {
     margin-bottom: rem(0);
   }
-  
+
   .text-two-info {
     font-size: rem(13.5);
     width: rem(352);
