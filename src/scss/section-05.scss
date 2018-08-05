@@ -32,14 +32,9 @@
       outline: none !important;
     }
 
-<<<<<<< HEAD
-    .slick-active button {
-      font-size: rem(4);
-=======
 
     .slick-active button{
       font-size: rem(8);
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
       text-decoration: line-through;
     }
   }
@@ -82,11 +77,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-<<<<<<< HEAD
-=======
-  padding-top: 2rem;
-
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
 }
 
 .review-part__review {
@@ -337,32 +327,6 @@
       margin-right: auto;
     }
 
-<<<<<<< HEAD
-  .section-05__title {
-    font-size: 1.75rem;
-  }
-
-  .section-05__text {
-    width: 6.25rem;
-    margin-left: 3rem;
-    padding-top: rem(40);
-  }
-
-  .section-05__text::before {
-    right: 7.5rem;
-    top: 10rem;
-  }
-
-  .button-left::before {
-    content: "\2039";
-    color: #ffffff;
-    font-size: rem(30);
-    text-align: center;
-    padding: rem(10);
-    bottom: rem(0);
-    left: 0;
-  }
-=======
     .section-05__title {
       font-size: $mainTitleNotebook;
       width: 11rem;
@@ -397,7 +361,6 @@
       left: 0;
 
     }
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
 
     .button-right::after {
       content: "\203a";
@@ -409,38 +372,6 @@
       right: 0;
     }
 
-<<<<<<< HEAD
-  .button-left,
-  .button-right {
-    display: inline-block;
-    height: rem(27);
-    width: rem(27);
-    background-color: #000000;
-    line-height: rem(13);
-  }
-
-  .review-photo {
-    width: rem(80);
-    height: rem(80);
-    max-width: none;
-    margin-top: 0;
-  }
-
-  .section-05__review-part {
-    width: 400px;
-    margin: auto;
-  }
-
-  .review {
-    max-height: 340px;
-    overflow-y: auto;
-    font-size: rem(11);
-    line-height: rem(18);
-    padding-top: rem(10);
-  }
-}
-
-=======
     .button-left, .button-right {
       display: inline-block;
       height: rem(27);
@@ -544,7 +475,6 @@
 }
 
 
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
 @media (min-width: 1200px) {
   .section-05 {
     padding-top: 150px;
@@ -558,32 +488,7 @@
       width: initial;
     }
 
-<<<<<<< HEAD
-  .section-05__title {
-    font-size: 1.75rem;
-  }
 
-  .section-05__text {
-    width: 6.25rem;
-    margin-left: 3rem;
-    padding-top: rem(40);
-  }
-
-  .section-05__text::before {
-    right: 7.5rem;
-    top: 10rem;
-  }
-
-  .button-left::before {
-    content: "\2039";
-    color: #ffffff;
-    font-size: rem(30);
-    text-align: center;
-    padding: rem(10);
-    bottom: rem(0);
-    left: 0;
-  }
-=======
     .section-05__title {
       font-size: $mainTitleNotebook;
       width: 11rem;
@@ -618,7 +523,6 @@
       left: 0;
 
     }
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
 
     .button-right::after {
       content: "\203a";
@@ -630,35 +534,7 @@
       right: 0;
     }
 
-<<<<<<< HEAD
-  .button-left,
-  .button-right {
-    display: inline-block;
-    height: rem(27);
-    width: rem(27);
-    background-color: #000000;
-    line-height: rem(13);
-  }
 
-  .review-photo {
-    width: rem(80);
-    height: rem(80);
-    max-width: none;
-    margin-top: 0;
-  }
-
-  .section-05__review-part {
-    width: 400px;
-    margin: auto;
-  }
-
-  .review {
-    max-height: 340px;
-    overflow-y: auto;
-    font-size: rem(11);
-    line-height: rem(18);
-    padding-top: rem(10);
-=======
     .button-left, .button-right {
       display: inline-block;
       height: rem(27);
@@ -747,7 +623,6 @@
       font-size: .7rem;
     }
 
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
   }
 }
 
@@ -770,15 +645,7 @@
     width: 27%;
   }
 
-<<<<<<< HEAD
-  .section-05__title {
-    font-size: 1.75rem;
-  }
 
-  .section-05__text {
-    width: 6.25rem;
-    margin-left: 3rem;
-=======
   .section-05__title{
     @include title;
     @include s-bracket;
@@ -795,7 +662,6 @@
     padding-left: 4rem;
     padding-top: 2.4rem;
     line-height: 1.15rem;
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
   }
 
   .section-05__text::before {
@@ -839,10 +705,6 @@
     height: 210px;
   }
 
-<<<<<<< HEAD
-  .review,
-  .name-surname {
-=======
   .name-surname{
     text-transform: uppercase;
     padding-top: 2.3rem;
@@ -850,7 +712,6 @@
   }
 
   .review, .name-surname {
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
     @include text;
     font-size: .7rem;
   }
@@ -914,17 +775,6 @@
     line-height: rem(13);
   }
 
-<<<<<<< HEAD
-  .section-05 .slick-dots li button {
-    font-size: rem(16);
-  }
-
-  .section-05 .slick-dots .slick-active button {
-    font-size: rem(20);
-  }
-
-  .review-photo {
-=======
   .section-05 .slick-dots li button{
     font-size: .6rem;
     padding-left: 0.7rem;
@@ -936,7 +786,6 @@
 
 
   .review-photo{
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
     width: rem(105);
     height: rem(105);
     max-width: none;
@@ -957,19 +806,9 @@
     max-height: 345px;
     overflow-y: scroll;
   }
-  
-  .review-container {
-<<<<<<< HEAD
-    &::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-      border-radius: 10px;
-      background-color: #f5f5f5;
-    }
 
-    &::-webkit-scrollbar {
-      width: 4px;
-      background-color: #f5f5f5;
-=======
+  .review-container {
+
     &::-webkit-scrollbar-track
     {
       background-color: white;
@@ -979,18 +818,12 @@
     {
       width: 5px;
       background-color: #070707;
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
     }
 
     &::-webkit-scrollbar-thumb {
       border-radius: 4px;
-<<<<<<< HEAD
-      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-      background-color: #797977;
-=======
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
       background-color: #070707;
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
     }
   }
 
