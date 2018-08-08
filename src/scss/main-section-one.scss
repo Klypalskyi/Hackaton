@@ -4,7 +4,6 @@
   margin: auto;
 }
 
-
 .foto-text-section-one {
   position: relative;
 }
@@ -20,9 +19,8 @@
   display: inline-block;
   position: absolute;
   top: rem(92.8);
-  left: rem(0); 
+  left: rem(0);
 }
-
 
 .title-text {
   font-family: "Acrom-extrabold", sans-serif;
@@ -34,7 +32,8 @@
   max-width: 96%;
 }
 
-.main-section-title, .main-section-two {
+.main-section-title,
+.main-section-two {
   position: relative;
   z-index: 2;
 }
@@ -151,7 +150,7 @@
 
 @media (min-width: 480px) {
   .section-one {
-  padding-top: rem(54);
+    padding-top: rem(54);
   }
 
   .text-fon-section-one {
@@ -160,7 +159,11 @@
   }
 
   .main-section-one-foto {
+<<<<<<< HEAD
   margin-bottom: rem(44);
+=======
+    margin-bottom: rem(44);
+>>>>>>> 45fc11598d2aae9d97070eeb9c02dde18399b675
   }
 
   .title-text {

@@ -36,9 +36,9 @@
 }
 
 .info-section-two--item::before {
-  content: '';
+  content: "";
   min-width: rem(6);
-  min-height: rem(6);  
+  min-height: rem(6);
   background: $buttonBg;
   position: absolute;
   top: rem(8.5);
@@ -131,9 +131,25 @@
 
   .info-section-two--item::before {
     min-width: rem(9.5);
+<<<<<<< HEAD
     min-height: rem(9.5);  
     top: rem(13);
     left: rem(16);
+=======
+    min-height: rem(9.5);
+    top: rem(0);
+    left: rem(0);
+  }
+
+  .info-section-two--item {
+    margin-bottom: rem(31);
+  }
+
+  .info-section-two--item::before {
+    margin-left: rem(16);
+    margin-right: rem(14);
+    margin-top: rem(8);
+>>>>>>> 45fc11598d2aae9d97070eeb9c02dde18399b675
   }
 
   .section-two-title {
@@ -175,7 +191,7 @@
   .info-section-two > li:last-child {
     margin-bottom: rem(0);
   }
-  
+
   .text-two-info {
     font-size: rem(13.5);
     width: rem(352);

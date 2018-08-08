@@ -4,10 +4,11 @@
   flex-direction: column;
   align-items: center;
 
-  .slick-slider{
-    box-shadow: 0px 5px 11px 0px rgba(0,0,0,.2);
+  .slick-slider {
+    box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.2);
   }
-  .slick-initialized .slick-slide{
+
+  .slick-initialized .slick-slide {
     outline: none !important;
   }
 
@@ -21,14 +22,14 @@
     font-size: rem(2.6);
     padding-left: 0.6rem;
 
-    li button{
+    li button {
       padding: 0;
       border: none;
       background: none;
       padding-right: 0.2rem;
       padding-top: 0.2rem;
       font-size: rem(2.6);
-      outline: none!important;
+      outline: none !important;
     }
 
 
@@ -37,10 +38,9 @@
       text-decoration: line-through;
     }
   }
-
 }
 
-.section-05__title{
+.section-05__title {
   @include title;
   font-size: $mainTitleMobile;
   font-weight: 800;
@@ -57,16 +57,16 @@
 }
 
 .section-05__text::before {
-    content: "";
-    display: block;
-    min-height: rem(1);
-    min-width: rem(13.5);
-    background: #000;
-    font-weight: 800;
-    position: absolute;
-    left: rem(-23);
-    top: rem(57);
-  }
+  content: "";
+  display: block;
+  min-height: rem(1);
+  min-width: rem(13.5);
+  background: #000;
+  font-weight: 800;
+  position: absolute;
+  left: rem(-23);
+  top: rem(57);
+}
 
 .section-title-part {
   position: relative;
@@ -77,8 +77,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 2rem;
-
 }
 
 .review-part__review {
@@ -94,24 +92,23 @@
   flex-wrap: wrap;
 }
 
-.review-photo-container{
+.review-photo-container {
   padding-bottom: rem(10);
   width: rem(40);
   height: rem(40);
 }
 
-.review, .name-surname {
+.review,
+.name-surname {
   @include text;
 }
 
-
-
-.review-container{
+.review-container {
   max-height: 110px;
   overflow: hidden;
 }
 
-.review{
+.review {
   font-size: 6px;
   overflow-y: scroll;
   max-height: 120px;
@@ -145,19 +142,18 @@
 }
 */
 
-.wheel__arrows-container{
+.wheel__arrows-container {
   display: flex;
   position: relative;
 }
 
-.section-05--bottom-element{
+.section-05--bottom-element {
   display: flex;
   justify-content: space-between;
   /*
   align-items: flex-end;
   */
 }
-
 
 .wheel__item {
   @include title;
@@ -172,7 +168,6 @@
   left: rem(2);
   bottom: rem(0.385);
   font-size: rem(12);
-
 }
 
 .button-right::after {
@@ -185,7 +180,8 @@
   font-size: rem(12);
 }
 
-.button-left, .button-right {
+.button-left,
+.button-right {
   display: inline-block;
   height: rem(10);
   width: rem(10);
@@ -218,16 +214,16 @@
     width: 15%;
   }
 
-  .section-05__title{
+  .section-05__title {
     font-size: 1.75rem;
   }
 
-  .section-05__text{
+  .section-05__text {
     width: 6.25rem;
     margin-left: 3rem;
   }
 
-  .section-05__text::before{
+  .section-05__text::before {
     content: "";
     display: block;
     min-height: 0.2rem;
@@ -246,7 +242,6 @@
     padding: rem(10);
     bottom: rem(0);
     left: 0;
-
   }
 
   .button-right::after {
@@ -259,7 +254,8 @@
     right: 0;
   }
 
-  .button-left, .button-right {
+  .button-left,
+  .button-right {
     display: inline-block;
     height: rem(27);
     width: rem(27);
@@ -267,18 +263,18 @@
     line-height: rem(13);
   }
 
-  .review-photo-container{
+  .review-photo-container {
     margin-left: auto;
     margin-top: 1rem;
     width: 5rem;
     height: 5rem;
   }
 
-  .section-05__review-part{
+  .section-05__review-part {
     width: 400px;
   }
 
-  .review{
+  .review {
     max-height: 340px;
     width: 270px;
     overflow-y: auto;
@@ -287,35 +283,33 @@
     padding-top: rem(10);
   }
 
-  .review-part__review{
+  .review-part__review {
     height: rem(305);
   }
 
-  .review-container{
+  .review-container {
     max-height: 285px;
     width: 290px;
   }
 
-  .review-information{
+  .review-information {
     margin-left: 1rem;
     display: block;
   }
 
-  .name-surname{
+  .name-surname {
     font-size: 8px;
     text-transform: uppercase;
   }
 
-  .section-05 .slick-dots li button{
+  .section-05 .slick-dots li button {
     font-size: rem(8);
   }
 
-  .section-05 .slick-dots .slick-active button{
+  .section-05 .slick-dots .slick-active button {
     font-size: rem(12);
   }
-
 }
-
 
 @media (min-width: 960px) and (max-width: 1199px) {
   .section-05 {
@@ -494,6 +488,7 @@
       width: initial;
     }
 
+
     .section-05__title {
       font-size: $mainTitleNotebook;
       width: 11rem;
@@ -538,6 +533,7 @@
       bottom: rem(0);
       right: 0;
     }
+
 
     .button-left, .button-right {
       display: inline-block;
@@ -640,7 +636,7 @@
     align-items: flex-start;
 
     .slick-dots{
-      padding-top: 1rem;
+
       padding-left: 1.2rem;
     }
   }
@@ -648,6 +644,7 @@
   .section-title-part {
     width: 27%;
   }
+
 
   .section-05__title{
     @include title;
@@ -667,7 +664,7 @@
     line-height: 1.15rem;
   }
 
-  .section-05__text::before{
+  .section-05__text::before {
     content: "";
     display: block;
     min-height: rem(4);
@@ -769,7 +766,8 @@
     padding-bottom: 1rem;
   }
 
-  .button-left, .button-right {
+  .button-left,
+  .button-right {
     display: inline-block;
     height: rem(27);
     width: rem(27);
@@ -794,8 +792,7 @@
     margin-top: 0;
   }
 
-
-  .review{
+  .review {
     max-height: none;
     overflow-y: auto;
     font-size: rem(11);
@@ -805,11 +802,13 @@
     padding-right: 3rem;
   }
 
-  .review-container{
+  .review-container {
     max-height: 345px;
     overflow-y: scroll;
   }
+
   .review-container {
+
     &::-webkit-scrollbar-track
     {
       background-color: white;
@@ -821,16 +820,14 @@
       background-color: #070707;
     }
 
-    &::-webkit-scrollbar-thumb
-    {
+    &::-webkit-scrollbar-thumb {
       border-radius: 4px;
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
       background-color: #070707;
     }
   }
 
-
-  .section-05__slick-container{
+  .section-05__slick-container {
     height: 375px;
     overflow-y: hidden;
   }
