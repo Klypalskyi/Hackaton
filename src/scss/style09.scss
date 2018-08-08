@@ -110,7 +110,6 @@
 
 .footer-button {
   display: block;
- 
 }
 
 .button {
@@ -129,6 +128,16 @@
   box-shadow: 0 rem(4) rem(5) #f1d6c5;
   margin: 0 auto;
 }
+
+.button:hover {
+  background-color: #17ecff;
+  box-shadow: (0 rem(3) rem(4) rgba(23, 236, 255, 0.26));
+}
+
+.button:focus {
+  background-color: #06a4b2;
+  box-shadow: (0 rem(2) rem(2) #579d8e);
+ }
 
 @media (min-width: 480px) {
 .picc-nine {
@@ -258,11 +267,9 @@
   }
 
   .box-item-2 {
-    
     flex-basis: 28%;
     max-width: 35%;
     margin: 0;
-    
   }
 
   .box-text {
@@ -511,7 +518,7 @@
     padding: 14px 18px 14px 17px;
     box-shadow: 0 rem(9) rem(13) #f1d6c5;
   }
-}
+ }
 
 @media (min-width: 1440px) {
   .content-nine {

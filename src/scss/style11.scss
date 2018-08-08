@@ -133,8 +133,8 @@
     margin: 0;
     display: grid;
     grid-gap: rem(10);
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr, ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
     'i t'
     'i l';
@@ -144,7 +144,7 @@
   grid-area: t;
 }
 .title-11__item {
-  max-width: 50%;
+  max-width: 70%;
   font-family: "Acrom-extrabold";
     font-size: rem(27);
     line-height: rem(33.65);
@@ -154,7 +154,7 @@
   font-size: rem(9);
   line-height: rem(13.46);
   margin: 0 auto;
-  max-width: 52%;
+  max-width: 67%;
   padding-left: rem(40);
   }
 
@@ -163,7 +163,7 @@
   min-width: rem(30);
   height: rem(4);
   top: rem(190);
-  left: rem(430);
+  left: rem(485);
 }
 
 .box-item-11 {
@@ -172,14 +172,11 @@
   margin: 0;
 }
 
-.box-item-11 > img {
-  max-width: 170%;
-}
 .list-11 {
   grid-area: l;
   justify-self: center;
   margin: 0 auto;
-  max-width: 40%;
+  max-width: 60%;
 
   .list-11-title {
     font-family: "Acrom-extrabold";
@@ -207,7 +204,7 @@
 .title-11__item {
   font-size: rem(34);
   line-height: rem(42.06);
-  max-width: 60%;
+  max-width: 70%;
  }
 
 
@@ -222,7 +219,7 @@
   min-width: rem(33);
   height: rem(4);
   top: rem(235);
-  left: rem(480);
+  left: rem(505);
 }
 
 .list-11-title {
@@ -271,6 +268,7 @@
   .title-11__text {
     font-size: rem(10);
     line-height: rem(15);
+    max-width: 60%;
   }
 
   .title-11__text::before {
@@ -278,7 +276,7 @@
     min-width: rem(30);
     height: rem(5);
     top: rem(228);
-    left: rem(480);
+    left: rem(505);
   }
 
   .list-11-title {
@@ -319,6 +317,10 @@
     padding: rem(149.25) rem(12) 0;
   }
 
+  .box-item-11 > img {
+    max-width: 140%;
+  }
+
   .title-11__item {
     font-size: rem(36);
     line-height: rem(45);
@@ -334,7 +336,7 @@
     content: "";
     height: rem(4);
     top: rem(273);
-    left: rem(480);
+    left: rem(505);
   }
 
   .list-11-title {

@@ -9,7 +9,7 @@
   }
 
   .slick-initialized .slick-slide {
-    outline: none !important;
+    outline: none;
   }
 
   .slick-dots {
@@ -29,17 +29,11 @@
       padding-right: 0.2rem;
       padding-top: 0.2rem;
       font-size: rem(2.6);
-      outline: none !important;
+      outline: none;
     }
 
-<<<<<<< HEAD
     .slick-active button {
-      font-size: rem(4);
-=======
-
-    .slick-active button{
       font-size: rem(8);
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
       text-decoration: line-through;
     }
   }
@@ -58,7 +52,7 @@
   color: $textColorBl;
   width: rem(180);
   font-weight: bold;
-  white-space: normal
+  white-space: normal;
 }
 
 .section-05__text::before {
@@ -82,11 +76,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-<<<<<<< HEAD
-=======
   padding-top: 2rem;
-
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
 }
 
 .review-part__review {
@@ -160,6 +150,7 @@
 .section-05--bottom-element {
   display: flex;
   justify-content: space-between;
+
   /*
   align-items: flex-end;
   */
@@ -337,32 +328,6 @@
       margin-right: auto;
     }
 
-<<<<<<< HEAD
-  .section-05__title {
-    font-size: 1.75rem;
-  }
-
-  .section-05__text {
-    width: 6.25rem;
-    margin-left: 3rem;
-    padding-top: rem(40);
-  }
-
-  .section-05__text::before {
-    right: 7.5rem;
-    top: 10rem;
-  }
-
-  .button-left::before {
-    content: "\2039";
-    color: #ffffff;
-    font-size: rem(30);
-    text-align: center;
-    padding: rem(10);
-    bottom: rem(0);
-    left: 0;
-  }
-=======
     .section-05__title {
       font-size: $mainTitleNotebook;
       width: 11rem;
@@ -395,9 +360,7 @@
       padding: rem(10);
       bottom: rem(0);
       left: 0;
-
     }
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
 
     .button-right::after {
       content: "\203a";
@@ -409,39 +372,8 @@
       right: 0;
     }
 
-<<<<<<< HEAD
-  .button-left,
-  .button-right {
-    display: inline-block;
-    height: rem(27);
-    width: rem(27);
-    background-color: #000000;
-    line-height: rem(13);
-  }
-
-  .review-photo {
-    width: rem(80);
-    height: rem(80);
-    max-width: none;
-    margin-top: 0;
-  }
-
-  .section-05__review-part {
-    width: 400px;
-    margin: auto;
-  }
-
-  .review {
-    max-height: 340px;
-    overflow-y: auto;
-    font-size: rem(11);
-    line-height: rem(18);
-    padding-top: rem(10);
-  }
-}
-
-=======
-    .button-left, .button-right {
+    .button-left,
+    .button-right {
       display: inline-block;
       height: rem(27);
       width: rem(27);
@@ -456,7 +388,7 @@
       margin-top: 0;
     }
 
-    .review-photo-container{
+    .review-photo-container {
       height: 0px;
     }
 
@@ -475,7 +407,7 @@
 
     .review-information {
       padding-top: rem(10);
-      padding-left: .8rem;
+      padding-left: 0.8rem;
       height: 210px;
     }
 
@@ -485,10 +417,11 @@
       line-height: 1.2rem;
     }
 
-    .review, .name-surname {
+    .review,
+    .name-surname {
       @include text;
       font-size: rem(10);
-      padding-top: .5rem;
+      padding-top: 0.5rem;
     }
 
     .review {
@@ -496,7 +429,7 @@
       overflow-y: auto;
       font-size: rem(11);
       line-height: rem(18);
-      padding-top: .5rem;
+      padding-top: 0.5rem;
       width: 388px;
       padding-right: 3rem;
     }
@@ -507,21 +440,18 @@
     }
 
     .review-container {
-      &::-webkit-scrollbar-track
-      {
+      &::-webkit-scrollbar-track {
         background-color: white;
       }
 
-      &::-webkit-scrollbar
-      {
+      &::-webkit-scrollbar {
         width: 5px;
         background-color: #070707;
       }
 
-      &::-webkit-scrollbar-thumb
-      {
+      &::-webkit-scrollbar-thumb {
         border-radius: 4px;
-        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
         background-color: #070707;
       }
     }
@@ -531,20 +461,17 @@
       overflow-y: hidden;
     }
 
-    .slick-dots li button{
-      font-size: .6rem;
+    .slick-dots li button {
+      font-size: 0.6rem;
       padding-left: 0.7rem;
     }
 
-    .slick-dots .slick-active button{
+    .slick-dots .slick-active button {
       font-size: rem(18);
     }
-
   }
 }
 
-
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
 @media (min-width: 1200px) {
   .section-05 {
     padding-top: 150px;
@@ -558,32 +485,6 @@
       width: initial;
     }
 
-<<<<<<< HEAD
-  .section-05__title {
-    font-size: 1.75rem;
-  }
-
-  .section-05__text {
-    width: 6.25rem;
-    margin-left: 3rem;
-    padding-top: rem(40);
-  }
-
-  .section-05__text::before {
-    right: 7.5rem;
-    top: 10rem;
-  }
-
-  .button-left::before {
-    content: "\2039";
-    color: #ffffff;
-    font-size: rem(30);
-    text-align: center;
-    padding: rem(10);
-    bottom: rem(0);
-    left: 0;
-  }
-=======
     .section-05__title {
       font-size: $mainTitleNotebook;
       width: 11rem;
@@ -616,9 +517,7 @@
       padding: rem(10);
       bottom: rem(0);
       left: 0;
-
     }
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
 
     .button-right::after {
       content: "\203a";
@@ -630,36 +529,8 @@
       right: 0;
     }
 
-<<<<<<< HEAD
-  .button-left,
-  .button-right {
-    display: inline-block;
-    height: rem(27);
-    width: rem(27);
-    background-color: #000000;
-    line-height: rem(13);
-  }
-
-  .review-photo {
-    width: rem(80);
-    height: rem(80);
-    max-width: none;
-    margin-top: 0;
-  }
-
-  .section-05__review-part {
-    width: 400px;
-    margin: auto;
-  }
-
-  .review {
-    max-height: 340px;
-    overflow-y: auto;
-    font-size: rem(11);
-    line-height: rem(18);
-    padding-top: rem(10);
-=======
-    .button-left, .button-right {
+    .button-left,
+    .button-right {
       display: inline-block;
       height: rem(27);
       width: rem(27);
@@ -667,12 +538,12 @@
       line-height: rem(13);
     }
 
-    .slick-dots li button{
-      font-size: .6rem;
+    .slick-dots li button {
+      font-size: 0.6rem;
       padding-left: 0.7rem;
     }
 
-    .slick-dots .slick-active button{
+    .slick-dots .slick-active button {
       font-size: rem(18);
     }
 
@@ -710,7 +581,7 @@
 
     .review-information {
       padding-top: rem(10);
-      padding-left: .8rem;
+      padding-left: 0.8rem;
       height: 210px;
       padding-right: 1rem;
     }
@@ -725,6 +596,7 @@
       max-height: 345px;
       overflow-y: scroll;
     }
+
     .review-container {
       &::-webkit-scrollbar-track {
         background-color: white;
@@ -737,17 +609,16 @@
 
       &::-webkit-scrollbar-thumb {
         border-radius: 4px;
-        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
         background-color: #070707;
       }
     }
 
-    .review, .name-surname {
+    .review,
+    .name-surname {
       @include text;
-      font-size: .7rem;
+      font-size: 0.7rem;
     }
-
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
   }
 }
 
@@ -760,7 +631,7 @@
     justify-content: space-between;
     align-items: flex-start;
 
-    .slick-dots{
+    .slick-dots {
       padding-top: 1rem;
       padding-left: 1.2rem;
     }
@@ -770,16 +641,7 @@
     width: 27%;
   }
 
-<<<<<<< HEAD
   .section-05__title {
-    font-size: 1.75rem;
-  }
-
-  .section-05__text {
-    width: 6.25rem;
-    margin-left: 3rem;
-=======
-  .section-05__title{
     @include title;
     @include s-bracket;
     font-size: $mainTitleDesktop;
@@ -787,15 +649,13 @@
     line-height: 2.82rem;
     width: unset;
     padding-bottom: 0;
-
   }
 
-  .section-05__text{
+  .section-05__text {
     width: 13.25rem;
     padding-left: 4rem;
     padding-top: 2.4rem;
     line-height: 1.15rem;
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
   }
 
   .section-05__text::before {
@@ -809,7 +669,6 @@
     left: rem(-61);
     top: 7px;
   }
-
 
   .section-05__text {
     @include text;
@@ -835,24 +694,20 @@
 
   .review-information {
     padding-top: rem(10);
-    padding-left: .8rem;
+    padding-left: 0.8rem;
     height: 210px;
   }
 
-<<<<<<< HEAD
-  .review,
   .name-surname {
-=======
-  .name-surname{
     text-transform: uppercase;
     padding-top: 2.3rem;
     line-height: 1.2rem;
   }
 
-  .review, .name-surname {
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
+  .review,
+  .name-surname {
     @include text;
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   .wheel {
@@ -860,8 +715,8 @@
     list-style-type: none;
     margin-right: rem(136);
 
-    &__arrows-container{
-      padding-top: .3rem;
+    &__arrows-container {
+      padding-top: 0.3rem;
     }
 
     &__item {
@@ -914,29 +769,16 @@
     line-height: rem(13);
   }
 
-<<<<<<< HEAD
   .section-05 .slick-dots li button {
-    font-size: rem(16);
-  }
-
-  .section-05 .slick-dots .slick-active button {
-    font-size: rem(20);
-  }
-
-  .review-photo {
-=======
-  .section-05 .slick-dots li button{
-    font-size: .6rem;
+    font-size: 0.6rem;
     padding-left: 0.7rem;
   }
 
-  .section-05 .slick-dots .slick-active button{
+  .section-05 .slick-dots .slick-active button {
     font-size: rem(18);
   }
 
-
-  .review-photo{
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
+  .review-photo {
     width: rem(105);
     height: rem(105);
     max-width: none;
@@ -948,7 +790,7 @@
     overflow-y: auto;
     font-size: rem(11);
     line-height: rem(18);
-    padding-top: .5rem;
+    padding-top: 0.5rem;
     width: 388px;
     padding-right: 3rem;
   }
@@ -957,40 +799,21 @@
     max-height: 345px;
     overflow-y: scroll;
   }
-  
-  .review-container {
-<<<<<<< HEAD
-    &::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-      border-radius: 10px;
-      background-color: #f5f5f5;
-    }
 
-    &::-webkit-scrollbar {
-      width: 4px;
-      background-color: #f5f5f5;
-=======
-    &::-webkit-scrollbar-track
-    {
+  .review-container {
+    &::-webkit-scrollbar-track {
       background-color: white;
     }
 
-    &::-webkit-scrollbar
-    {
+    &::-webkit-scrollbar {
       width: 5px;
       background-color: #070707;
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
     }
 
     &::-webkit-scrollbar-thumb {
       border-radius: 4px;
-<<<<<<< HEAD
       -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-      background-color: #797977;
-=======
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
       background-color: #070707;
->>>>>>> 9756ef73466021ca4338f4892675ca1056deba00
     }
   }
 
