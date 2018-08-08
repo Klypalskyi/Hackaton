@@ -47,7 +47,7 @@
 
 .box__cart_one,
 .box__cart_two,
-.box__cart_three, {
+.box__cart_three {
   margin-bottom: rem(30);
   position: relative;
 }
@@ -85,7 +85,6 @@
   z-index: -10;
   position: absolute;
   right: 0;
-  
 }
 
 .prize > img {
@@ -161,7 +160,6 @@
 }
 
 @media (min-width: 480px) {
-
   .box-title__main {
     font-size: rem(18);
     line-height: rem(24);
@@ -180,6 +178,7 @@
     word-break: break-all;
     margin-bottom: rem(39);
   }
+
   .box__pic {
     padding-top: 0;
     max-width: 100%;
@@ -190,9 +189,9 @@
     margin-bottom: rem(62);
   }
 
- .title__text {
-  max-width: 45%;
-  margin: 0 auto;
+  .title__text {
+    max-width: 45%;
+    margin: 0 auto;
   }
 
   .title-cart {
@@ -288,10 +287,9 @@
     max-width: 100%;
     margin: 0 auto;
   }
-  
+
   .box__1 {
     display: flex;
-    
   }
 
   .box-title__main {
@@ -311,7 +309,7 @@
     word-break: unset;
     max-width: 40%;
     margin: 0;
- }
+  }
 
   .box-title__text {
     padding: 0;
@@ -325,7 +323,7 @@
 
   .box__pic {
     display: flex;
-    margin-bottom: rem(64);    
+    margin-bottom: rem(64);
   }
 
   .picc {
@@ -336,14 +334,14 @@
     z-index: -2;
   }
 
- .title__text {
-  max-width: 30%;
-  margin: 0;
+  .title__text {
+    max-width: 30%;
+    margin: 0;
   }
 
   .box-list {
     display: flex;
-   max-width: 100%;
+    max-width: 100%;
   }
 
   .box__cart_one {
@@ -354,9 +352,9 @@
 
   .box__cart_three,
   .box__cart_four {
-   margin: 0;
-   flex-basis: 40%;
- }
+    margin: 0;
+    flex-basis: 40%;
+  }
 
   .title-cart {
     font-size: rem(9);
@@ -372,7 +370,7 @@
     font-family: "Acrom-extrabold", sans-serif;
     margin-bottom: rem(11);
     max-width: 90%;
-    }
+  }
 
   .cart-text_one {
     margin: 0;
@@ -382,23 +380,23 @@
     max-width: 90%;
   }
 
-.box__cart_two {
-margin: 0;
-max-width: 100%;
-flex-basis: 40%;
-}
+  .box__cart_two {
+    margin: 0;
+    max-width: 100%;
+    flex-basis: 40%;
+  }
 
-.box__cart_two>.title-cart_main {
-  max-width: 35%;
-}
+  .box__cart_two > .title-cart_main {
+    max-width: 35%;
+  }
 
-.box__cart_three>.title-cart_main {
-  max-width: 40%;
-}
+  .box__cart_three > .title-cart_main {
+    max-width: 40%;
+  }
 
-.box__cart_four>.title-cart_main {
-  max-width: 40%;
-}
+  .box__cart_four > .title-cart_main {
+    max-width: 40%;
+  }
 
   .title-cart,
   .title-cart-two {
@@ -417,7 +415,7 @@ flex-basis: 40%;
   }
 
   .box__cart_four {
-    max-width:100%;
+    max-width: 100%;
   }
 
   .box__cart_four > .cart-text_two {
@@ -435,6 +433,7 @@ flex-basis: 40%;
   .box__cart_one {
     margin-bottom: 0;
   }
+
   .prize {
     top: rem(-10);
     right: rem(10);
@@ -453,9 +452,11 @@ flex-basis: 40%;
     top: rem(430);
     right: rem(40);
   }
-.prize-four > img {
-  max-width: 90%;;
-}
+
+  .prize-four > img {
+    max-width: 90%;
+  }
+
   .prize-four {
     top: rem(430);
     right: rem(400);
@@ -501,18 +502,18 @@ flex-basis: 40%;
   .box-title__text {
     font-size: rem(10);
     line-height: rem(14.72);
- }
+  }
 
   .picc {
     top: rem(220);
     right: rem(0);
-}
+  }
 
-.title__text {
-  max-width: 30%;
-  margin: 0;
-  padding-left: rem(40);
-}
+  .title__text {
+    max-width: 30%;
+    margin: 0;
+    padding-left: rem(40);
+  }
 
   .img_text {
     font-size: rem(11);
@@ -524,29 +525,31 @@ flex-basis: 40%;
     font-size: rem(11);
     line-height: rem(14.72);
   }
-.box__cart_one {
-  flex-basis: 40%;
-  margin-right: rem(50);
-}
+
+  .box__cart_one {
+    flex-basis: 40%;
+    margin-right: rem(50);
+  }
+
   .title-cart_main {
     font-size: rem(11);
     line-height: rem(16.82);
     margin-bottom: rem(14);
-}
+  }
 
-.box__cart_one > .title-cart_main {
-  max-width: 75%;
-}
+  .box__cart_one > .title-cart_main {
+    max-width: 75%;
+  }
 
   .cart-text_one {
     font-size: rem(10);
     line-height: rem(14.72);
-   }
+  }
 
   .title-cart-two {
     font-size: rem(11);
     line-height: rem(14.72);
-   }
+  }
 
   .title-cart,
   .title-cart-two {
@@ -574,7 +577,6 @@ flex-basis: 40%;
   .box__cart_four > .cart-text_two {
     max-width: 40%;
   }
-
 
   .prize > img,
   .prize-two > img,
@@ -619,16 +621,16 @@ flex-basis: 40%;
   }
 }
 @media (min-width: 1200px) {
-.content-ten {
-  padding: rem(124.38) rem(12) 0;
-  max-width: 100%;
-}
+  .content-ten {
+    padding: rem(124.38) rem(12) 0;
+    max-width: 100%;
+  }
 
   .box-title__main {
     font-size: rem(30);
     line-height: rem(37.5);
-     margin-bottom: rem(32);
-     max-width: 30%;
+    margin-bottom: rem(32);
+    max-width: 30%;
   }
 
   .box-title__premain {
@@ -650,7 +652,7 @@ flex-basis: 40%;
   .picc {
     top: rem(200);
     right: rem(12);
-}
+  }
 
   .img_text {
     font-size: rem(10);
@@ -658,7 +660,7 @@ flex-basis: 40%;
     margin-bottom: rem(71);
   }
 
-   .title-cart {
+  .title-cart {
     font-size: rem(10);
     line-height: rem(13.13);
   }
@@ -678,7 +680,7 @@ flex-basis: 40%;
   .title-cart-two {
     font-size: rem(10);
     line-height: rem(13.13);
- }
+  }
 
   .title-cart,
   .title-cart-two {
@@ -688,7 +690,7 @@ flex-basis: 40%;
   .box__cart_three,
   .box__cart_four {
     padding-top: rem(23);
- }
+  }
 
   .cart-text_two {
     font-size: rem(9);
@@ -743,11 +745,11 @@ flex-basis: 40%;
   }
 }
 @media (min-width: 1440px) {
-
   .content-ten {
     padding: rem(149.25) rem(12) 0;
     max-width: 100%;
   }
+
   .box-title__main {
     font-size: rem(36);
     line-height: rem(45);
@@ -767,15 +769,15 @@ flex-basis: 40%;
 
   .box__pic > .title__text {
     margin: 0;
-    max-width:35%;
+    max-width: 35%;
   }
 
-   .picc {
+  .picc {
     top: rem(270);
     right: rem(12);
   }
-  
-   .title-cart {
+
+  .title-cart {
     font-size: rem(12);
     line-height: rem(15.75);
   }
@@ -806,9 +808,11 @@ flex-basis: 40%;
     font-size: rem(11);
     line-height: rem(15.75);
   }
-.box__cart_two {
-  flex-basis: 42%;
-}
+
+  .box__cart_two {
+    flex-basis: 42%;
+  }
+  
   .box__cart_two > .cart-text_two {
     max-width: 60%;
   }
@@ -832,7 +836,7 @@ flex-basis: 40%;
   .box__cart_three,
   .box__cart_four {
     padding-top: rem(52);
- }
+  }
 
   .prize {
     top: rem(0);

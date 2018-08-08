@@ -5,8 +5,6 @@
 
 .container-section {
   margin: auto;
-  max-width: rem(878);
-  min-width: rem(320);
   padding: 0 rem(12);
 }
 
@@ -19,5 +17,23 @@
 @media (min-width: 768px) {
   .container-section {
     padding: 0 rem(64);
+  }
+}
+
+@media (min-width: 960px) {
+  .container-section {
+    padding: 0 rem(80);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-section {
+    padding: 0 rem(243.75);
+  } 
+}
+
+@media (min-width: 1440px) {
+  .container-section {
+    padding: 0 rem(292.50);
   }
 }
