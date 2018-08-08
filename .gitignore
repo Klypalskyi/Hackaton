@@ -31,7 +31,6 @@ bower_components
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
-build
 
 # Dependency directories
 node_modules/
@@ -58,6 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
-build/
 .idea
 .idea/workspace.xml
