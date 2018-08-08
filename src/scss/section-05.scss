@@ -32,12 +32,8 @@
       outline: none;
     }
 
-<<<<<<< HEAD
-    .slick-active button {
-=======
 
     .slick-active button{
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
       font-size: rem(8);
       text-decoration: line-through;
     }
@@ -81,10 +77,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-<<<<<<< HEAD
-  padding-top: 2rem;
-=======
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
 }
 
 .review-part__review {
@@ -380,12 +372,7 @@
       right: 0;
     }
 
-<<<<<<< HEAD
-    .button-left,
-    .button-right {
-=======
     .button-left, .button-right {
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
       display: inline-block;
       height: rem(27);
       width: rem(27);
@@ -484,10 +471,6 @@
   }
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
 @media (min-width: 1200px) {
   .section-05 {
     padding-top: 150px;
@@ -501,10 +484,6 @@
       width: initial;
     }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
     .section-05__title {
       font-size: $mainTitleNotebook;
       width: 11rem;
@@ -549,13 +528,8 @@
       right: 0;
     }
 
-<<<<<<< HEAD
-    .button-left,
-    .button-right {
-=======
 
     .button-left, .button-right {
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
       display: inline-block;
       height: rem(27);
       width: rem(27);
@@ -644,10 +618,6 @@
       @include text;
       font-size: 0.7rem;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
   }
 }
 
@@ -660,13 +630,8 @@
     justify-content: space-between;
     align-items: flex-start;
 
-<<<<<<< HEAD
-    .slick-dots {
-      padding-top: 1rem;
-=======
     .slick-dots{
 
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
       padding-left: 1.2rem;
     }
   }
@@ -675,12 +640,8 @@
     width: 27%;
   }
 
-<<<<<<< HEAD
-  .section-05__title {
-=======
 
   .section-05__title{
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
     @include title;
     @include s-bracket;
     font-size: $mainTitleDesktop;
@@ -737,22 +698,13 @@
     height: 210px;
   }
 
-<<<<<<< HEAD
-  .name-surname {
-=======
   .name-surname{
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
     text-transform: uppercase;
     padding-top: 2.3rem;
     line-height: 1.2rem;
   }
 
-<<<<<<< HEAD
-  .review,
-  .name-surname {
-=======
   .review, .name-surname {
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
     @include text;
     font-size: 0.7rem;
   }
@@ -816,13 +768,8 @@
     line-height: rem(13);
   }
 
-<<<<<<< HEAD
-  .section-05 .slick-dots li button {
-    font-size: 0.6rem;
-=======
   .section-05 .slick-dots li button{
     font-size: .6rem;
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
     padding-left: 0.7rem;
   }
 
@@ -830,12 +777,8 @@
     font-size: rem(18);
   }
 
-<<<<<<< HEAD
-  .review-photo {
-=======
 
   .review-photo{
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
     width: rem(105);
     height: rem(105);
     max-width: none;
@@ -858,13 +801,8 @@
   }
 
   .review-container {
-<<<<<<< HEAD
-    &::-webkit-scrollbar-track {
-=======
-
     &::-webkit-scrollbar-track
     {
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
       background-color: white;
     }
 
@@ -875,11 +813,7 @@
 
     &::-webkit-scrollbar-thumb {
       border-radius: 4px;
-<<<<<<< HEAD
-      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-=======
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
->>>>>>> 08df9030846a0255e7751c33625acb6942b507b8
       background-color: #070707;
     }
   }
